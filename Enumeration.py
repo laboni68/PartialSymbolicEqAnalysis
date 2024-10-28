@@ -48,46 +48,6 @@ else:
     print("Calculate for 32 bits")
 
 
-# def checkForOneVar(variable, listmodel):
-#     count = 0
-#     s = Solver()
-#     s.add(f)
-#     s.check()
-#     for var in s.model():
-#         print(var.name())
-#         if var.name()=="fp.to_ieee_bv":
-#             continue
-#         s.add(var()>=MIN_value)
-#         s.add(var()<=MAX_value)
-#     while s.check() == sat:
-#         p=False
-#         print(s.model(), " count ", count)
-#         list = [s.model(), variable]
-#         listmodel.append(list)
-#         for var in s.model():
-#             if var.name()=="R" or var.name()!=variable:
-#                 continue
-#             p=Or(p, var()!=s.model()[var()])
-#         #print(p)
-#         # f2 = eval(f"p")
-#         s.add(p)
-#         count += 1
-#     print("count", count)
-
-
-# s = Solver()
-# s.add(f)
-# print(s.check())
-# nonEquivalent = []
-# for var in s.model():
-#     if var.name()=="fp.to_ieee_bv" :
-#         continue
-#     print("------------------------------")
-#     print("the current variable is ", var.name())
-#     listmodel = []
-#     checkForOneVar(var.name(), listmodel)
-#     print(listmodel)
-#     print("------------------------------")
 
 
 count = 0
@@ -106,7 +66,7 @@ while s.check() == sat:
     p=False
     print(s.model(), " count ", count)
     for var in s.model():
-        if var.name()=="R" or var.name()=='return': #will not work if there is only one variable
+        if var.name()=="R" or var.name()=='return': 
             continue
         p=Or(p, var()!=s.model()[var()])
     #print(p)
@@ -117,24 +77,5 @@ print("count", count)
 
 end = time.time()
 print("Total time ", end-start)
-# #Count solution with return value combination
-# count = 0
-# s1 = Solver()
-# s1.add(f)
-# s1.check()
-# for var in s1.model():
-#     print(var.name())
-#     if var.name()=="fp.to_ieee_bv":
-#         continue
-#     s1.add(var()>=MIN_value)
-#     s1.add(var()<=MAX_value)
-# while s1.check() == sat:
-#     p=False
-#     print(s1.model())
-#     for var in s1.model():
-#         p=Or(p, var()!=s1.model()[var()])
-#     #print(p)
-#     s1.add(p)
-#     count += 1
-# print("count", count)
+
 
