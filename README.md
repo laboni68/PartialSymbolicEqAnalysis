@@ -41,7 +41,7 @@
 - SearchMC: https://github.com/seonmokim/SearchMC
 - Ganak: https://github.com/meelgroup/ganak.git
 - ABC: https://github.com/vlab-cs-ucsb/ABC.git
-- qCoral:
+- qCoral: https://pan.cin.ufpe.br/coral/index.html
 
 ## Convert from Bitvector to Dimacs cnf
 - pydimacs: https://github.com/RobinDavid/pydimacs.git
