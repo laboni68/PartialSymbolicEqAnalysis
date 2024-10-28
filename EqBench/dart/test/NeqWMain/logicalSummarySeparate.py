@@ -80,7 +80,7 @@ def runRegularSE(binaryFile, functionName, functionAddress, entry, loopbound, re
 
     sm = c.factory.simulation_manager(state)
     #for loop bound
-    sm.use_technique(angr.exploration_techniques.LoopSeer(bound=loopbound))
+    sm.use_technique(angr.exploration_techniques.LoopSeer(bound=int(loopbound)))
     sm.explore()
 
     if returnType=='double':

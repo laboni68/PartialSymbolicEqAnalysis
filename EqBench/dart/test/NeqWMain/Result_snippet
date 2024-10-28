@@ -1,12 +1,14 @@
-oldV   newV   snippet   None   None   3   None
+oldV   newV   snippet   None   None   3   None   None
 True
 Not equivalent :(
 ==========================
 [rsi = 20, rdi = 945214023, R = 13875379345695965184]
-{'rsi', 'rdi', 'R'}
+{'rdi', 'R', 'rsi'}
 True
 ==========================
-Not equivalent for all the domain space
+Not nonequivalent for all the domain space
 At least one equivalent solution
-[rdi = 3263379259, rsi = 572480786, R = 0]
-total time  1.550137996673584
+[rdi = 3966565022,
+ rsi = 20,
+ R = 149844148992609582248082235344710650195]
+total time  2.4751577377319336

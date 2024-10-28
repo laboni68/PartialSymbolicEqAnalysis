@@ -255,6 +255,9 @@ def runPathDirected(binaryFile, functionName, number, call_vals1, functionAddres
 def calculateEquivalence(constraint_1, constraint_2,functionName):
         solver = claripy.Solver()
         solver.add(claripy.Not(claripy.Or(claripy.And(constraint_1, constraint_2), claripy.And(claripy.Not(constraint_1), claripy.Not(constraint_2)))))
+        f = open("solver"+functionName+".smt2",'w') 
+        f.write(claripy_solver_to_smt2(solver))  
+        f.close()
         print(solver.satisfiable())
         if(solver.satisfiable()==False):
             print("Equivalent :)")
@@ -267,11 +270,15 @@ def calculateEquivalence(constraint_1, constraint_2,functionName):
             f.write(claripy_solver_to_smt2(solver))  
             f.close()
             solver1 = claripy.Solver()
-            solver1.add(claripy.And(constraint_1,constraint_2))
+            #solver1.add(claripy.Or(claripy.And(constraint_1, claripy.Not(constraint_2)), claripy.And(claripy.Not(constraint_1), constraint_2)))
+            #solver1.add(claripy.Not(claripy.And(claripy.Or(constraint_1,constraint_2),claripy.Not(claripy.And(constraint_1,constraint_2)))))
+            solver1.add(claripy.And(constraint_1, constraint_2))
+            #solver1.add(claripy.And(claripy.Not(constraint_1), claripy.Not(constraint_2)))
+            #solver1.add(claripy.Not(constraint_2))
             print(solver1.satisfiable()) 
             if solver1.satisfiable():
                 print("==========================")
-                print("Not equivalent for all the domain space")
+                print("Not nonequivalent for all the domain space")
                 print("At least one equivalent solution")
                 print(solver1._get_solver().model())
                 f1 = open("Result"+functionName+"EQ.smt2",'w') 

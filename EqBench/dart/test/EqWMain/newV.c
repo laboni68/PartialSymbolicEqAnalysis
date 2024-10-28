@@ -13,5 +13,6 @@ double snippet(int x, int y) {
 }
 int main()
 {
+    printf("result is %d\n", snippet(-2147483648, -2147483648));
 return 0;
 }

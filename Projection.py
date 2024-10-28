@@ -3,11 +3,11 @@ import sys
 import time
 
 start = time.time()
-# #read the neq file from the argument
+# #read the eq file from the argument
 fileName = sys.argv[1]
 # print(fileName)
 
-#parsing the neq to smt2 file
+#parsing the eq to smt2 file
 f = z3.parse_smt2_file(fileName)
 
 
