@@ -8,7 +8,8 @@ fileName = sys.argv[1]
 # print(fileName)
 
 #parsing the eq to smt2 file
-f = z3.parse_smt2_file(fileName)
+# f = z3.parse_smt2_file(fileName)
+# print(f)
 
 
 count = 0
