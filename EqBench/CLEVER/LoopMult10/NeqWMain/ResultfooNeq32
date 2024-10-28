@@ -1,0 +1,56 @@
+CLEVER/LoopMult10/NeqWMain/ResultfooNEQ.smt2
+Calculate for 32 bits
+Satisfiability of solver :  sat
+rdi
+rsi
+R
+['rdi', 'rsi']
+variable is :  rdi
+unsat
+Initial logarithmic  32
+val  31  div  2147483648 max_value  0.9999999995343387
+variable is :  rsi
+unsat
+Initial logarithmic  64
+val  31  div  2147483648 max_value  0.9999999995343387
+logarithmic value  64
+=======================
+For values less than 0
+=======================
+variable is :  rdi
+unsat
+val  32  div  4294967296 min_value  -0.5
+variable is :  rsi
+unsat
+val  32  div  4294967296 min_value  -0.5
+========================
+Check for value 0
+========================
+variable is :  rdi
+Not equivalent for 0
+variable is :  rsi
+Not equivalent for 0
+========================
+variable :  rdi
+Max  0.9999999995343387  Min  -0.5
+Range diff  1.4999999995343387
+Percentage of varable  rdi  is  3.492459653723842e-08 %
+========================
+========================
+variable :  rsi
+Max  0.9999999995343387  Min  -0.5
+Range diff  1.4999999995343387
+Percentage of varable  rsi  is  3.492459653723842e-08 %
+========================
+Total domain :  18446744065119617025
+Equivalence domain :  2.249999998603016
+Minimum percentage of equivalent domain  1.2197274438568659e-17 %
+==============================================
+==============================================
+Check the given range
+Before  sat
+For no range they can be said as equivalent
+Before  sat
+For no range they can be said as equivalent
+==============================================
+==============================================

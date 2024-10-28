@@ -1,0 +1,53 @@
+CLEVER/oneN2/NeqWMain/ResultclientNEQ.smt2
+CLEVER/oneN2/NeqWMain/ResultclientEQ.smt2
+Satisfiability of solver :  sat
+rdi
+R
+Calculate for 32 bits
+Multi dimensional divide N search
+i =  0  is  rdi
+[-2147483648, 2147483648, 'rdi']
+total nonequivalence in range [(-2147483648, 0, 'rdi')]
+total nonequivalence in range [(0, 8, 'rdi')]
+total nonequivalence in range [(8, 10, 'rdi')]
+total nonequivalence in range [(10, 11, 'rdi')]
+total equivalence in range  [(11, 12, 'rdi')]
+total equivalence in range  [(12, 16, 'rdi')]
+total equivalence in range  [(16, 32, 'rdi')]
+total equivalence in range  [(32, 64, 'rdi')]
+total equivalence in range  [(64, 128, 'rdi')]
+total equivalence in range  [(128, 256, 'rdi')]
+total equivalence in range  [(256, 512, 'rdi')]
+total equivalence in range  [(512, 1024, 'rdi')]
+total equivalence in range  [(1024, 2048, 'rdi')]
+total equivalence in range  [(2048, 4096, 'rdi')]
+total equivalence in range  [(4096, 8192, 'rdi')]
+total equivalence in range  [(8192, 16384, 'rdi')]
+total equivalence in range  [(16384, 32768, 'rdi')]
+total equivalence in range  [(32768, 65536, 'rdi')]
+total equivalence in range  [(65536, 131072, 'rdi')]
+total equivalence in range  [(131072, 262144, 'rdi')]
+total equivalence in range  [(262144, 524288, 'rdi')]
+total equivalence in range  [(524288, 1048576, 'rdi')]
+total equivalence in range  [(1048576, 2097152, 'rdi')]
+total equivalence in range  [(2097152, 4194304, 'rdi')]
+total equivalence in range  [(4194304, 8388608, 'rdi')]
+total equivalence in range  [(8388608, 16777216, 'rdi')]
+total equivalence in range  [(16777216, 33554432, 'rdi')]
+total equivalence in range  [(33554432, 67108864, 'rdi')]
+total equivalence in range  [(67108864, 134217728, 'rdi')]
+total equivalence in range  [(134217728, 268435456, 'rdi')]
+total equivalence in range  [(268435456, 536870912, 'rdi')]
+total equivalence in range  [(536870912, 1073741824, 'rdi')]
+total equivalence in range  [(1073741824, 2147483648, 'rdi')]
+----------EQ-----------
+---------NEQ-----------
+[[(-2147483648, 0, 'rdi')], [(0, 8, 'rdi')], [(8, 10, 'rdi')], [(10, 11, 'rdi')]]
+----------------------------------
+total equivalence lower bound  2147483637  total  4294967296
+Percentage  49.99999974388629 %
+total nonequivalence upper bound  2147483659  total  4294967296
+Percentage  50.00000025611371 %
+sum of totalEq and totalNeq  4294967296
+total time  1.9094374179840088  s
+total time  0.03182395696640015  m

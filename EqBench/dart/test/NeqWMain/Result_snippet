@@ -1,0 +1,12 @@
+oldV   newV   snippet   None   None   3   None
+True
+Not equivalent :(
+==========================
+[rsi = 20, rdi = 945214023, R = 13875379345695965184]
+{'rsi', 'rdi', 'R'}
+True
+==========================
+Not equivalent for all the domain space
+At least one equivalent solution
+[rdi = 3263379259, rsi = 572480786, R = 0]
+total time  1.550137996673584

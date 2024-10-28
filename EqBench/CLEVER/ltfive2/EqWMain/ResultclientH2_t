@@ -1,0 +1,66 @@
+CLEVER/ltfive2/EqWMain/ResultclientNEQ.smt2
+CLEVER/ltfive2/EqWMain/ResultclientEQ.smt2
+Satisfiability of solver :  sat
+rdi
+R
+Calculate for 32 bits
+Multi dimensional divide N search
+i =  0  is  rdi
+[-2147483648, 2147483648, 'rdi']
+total equivalence in range  [(-2130706432, -2113929216, 'rdi')]
+total equivalence in range  [(-2113929216, -2080374784, 'rdi')]
+total equivalence in range  [(-2080374784, -2013265920, 'rdi')]
+total equivalence in range  [(-2013265920, -1879048192, 'rdi')]
+total equivalence in range  [(-1879048192, -1744830464, 'rdi')]
+total equivalence in range  [(-1744830464, -1728053248, 'rdi')]
+total nonequivalence in range [(-1711276032, -1677721600, 'rdi')]
+total nonequivalence in range [(-1677721600, -1610612736, 'rdi')]
+total nonequivalence in range [(-1610612736, -1342177280, 'rdi')]
+total nonequivalence in range [(-1342177280, -1308622848, 'rdi')]
+total nonequivalence in range [(-1308622848, -1291845632, 'rdi')]
+total equivalence in range  [(-1275068416, -1207959552, 'rdi')]
+total equivalence in range  [(-1207959552, -1073741824, 'rdi')]
+total equivalence in range  [(-1073741824, -939524096, 'rdi')]
+total equivalence in range  [(-939524096, -872415232, 'rdi')]
+total nonequivalence in range [(-855638016, -838860800, 'rdi')]
+total nonequivalence in range [(-838860800, -805306368, 'rdi')]
+total nonequivalence in range [(-805306368, -536870912, 'rdi')]
+total nonequivalence in range [(-536870912, -469762048, 'rdi')]
+total nonequivalence in range [(-469762048, -436207616, 'rdi')]
+total equivalence in range  [(-419430400, -402653184, 'rdi')]
+total equivalence in range  [(-402653184, -268435456, 'rdi')]
+total equivalence in range  [(-268435456, 0, 'rdi')]
+total equivalence in range  [(0, 268435456, 'rdi')]
+total equivalence in range  [(268435456, 402653184, 'rdi')]
+total equivalence in range  [(402653184, 419430400, 'rdi')]
+total nonequivalence in range [(436207616, 469762048, 'rdi')]
+total nonequivalence in range [(469762048, 536870912, 'rdi')]
+total nonequivalence in range [(536870912, 805306368, 'rdi')]
+total nonequivalence in range [(805306368, 838860800, 'rdi')]
+total nonequivalence in range [(838860800, 855638016, 'rdi')]
+total equivalence in range  [(872415232, 939524096, 'rdi')]
+total equivalence in range  [(939524096, 1073741824, 'rdi')]
+total equivalence in range  [(1073741824, 1207959552, 'rdi')]
+total equivalence in range  [(1207959552, 1275068416, 'rdi')]
+total nonequivalence in range [(1291845632, 1308622848, 'rdi')]
+total nonequivalence in range [(1308622848, 1342177280, 'rdi')]
+total nonequivalence in range [(1342177280, 1610612736, 'rdi')]
+total nonequivalence in range [(1610612736, 1677721600, 'rdi')]
+total nonequivalence in range [(1677721600, 1711276032, 'rdi')]
+total equivalence in range  [(1728053248, 1744830464, 'rdi')]
+total equivalence in range  [(1744830464, 1879048192, 'rdi')]
+total equivalence in range  [(1879048192, 2013265920, 'rdi')]
+total equivalence in range  [(2013265920, 2080374784, 'rdi')]
+total equivalence in range  [(2080374784, 2113929216, 'rdi')]
+total equivalence in range  [(2113929216, 2130706432, 'rdi')]
+----------EQ-----------
+---------NEQ-----------
+[[(-2147483648, -2130706432, 'rdi')], [(-1728053248, -1711276032, 'rdi')], [(-1711276032, -1677721600, 'rdi')], [(-1677721600, -1610612736, 'rdi')], [(-1610612736, -1342177280, 'rdi')], [(-1342177280, -1308622848, 'rdi')], [(-1308622848, -1291845632, 'rdi')], [(-1291845632, -1275068416, 'rdi')], [(-872415232, -855638016, 'rdi')], [(-855638016, -838860800, 'rdi')], [(-838860800, -805306368, 'rdi')], [(-805306368, -536870912, 'rdi')], [(-536870912, -469762048, 'rdi')], [(-469762048, -436207616, 'rdi')], [(-436207616, -419430400, 'rdi')], [(419430400, 436207616, 'rdi')], [(436207616, 469762048, 'rdi')], [(469762048, 536870912, 'rdi')], [(536870912, 805306368, 'rdi')], [(805306368, 838860800, 'rdi')], [(838860800, 855638016, 'rdi')], [(855638016, 872415232, 'rdi')], [(1275068416, 1291845632, 'rdi')], [(1291845632, 1308622848, 'rdi')], [(1308622848, 1342177280, 'rdi')], [(1342177280, 1610612736, 'rdi')], [(1610612736, 1677721600, 'rdi')], [(1677721600, 1711276032, 'rdi')], [(1711276032, 1728053248, 'rdi')], [(2130706432, 2147483648, 'rdi')]]
+----------------------------------
+total equivalence lower bound  2449473536  total  4294967296
+Percentage  57.03125 %
+total nonequivalence upper bound  1845493760  total  4294967296
+Percentage  42.96875 %
+sum of totalEq and totalNeq  4294967296
+total time  37.891701221466064  s
+total time  0.631528353691101  m

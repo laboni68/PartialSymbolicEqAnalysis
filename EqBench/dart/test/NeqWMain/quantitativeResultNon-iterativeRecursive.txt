@@ -1,0 +1,38 @@
+~/dart/test/NeqWMain/ResultsnippetNEQ.smt2~/dart/test/NeqWMain/ResultsnippetEQ.smt2Satisfiability of solver : sat
+rdi
+rsi
+R
+Calculate for 32 bits
+Multi dimensional divide N search
+i = 0 is rdi
+[-2147483648, 2147483647, 'rdi']
+i = 1 is rsi
+[-2147483648, 2147483647, 'rsi']
+total equivalence in range [(-2147483648, -1, 'rdi'), (-2147483648, -1, 'rsi')]
+total equivalence in range [(-2147483648, -1, 'rdi'), (-1, 2147483647, 'rsi')]
+total equivalence in range [(-1, 2147483647, 'rdi'), (-2147483648, -1, 'rsi')]
+total equivalence in range [(-1, 268435455, 'rdi'), (268435455, 536870911, 'rsi')]
+total equivalence in range [(268435455, 536870911, 'rdi'), (268435455, 536870911, 'rsi')]
+total equivalence in range [(-1, 536870911, 'rdi'), (536870911, 1073741823, 'rsi')]
+total equivalence in range [(536870911, 805306367, 'rdi'), (268435455, 536870911, 'rsi')]
+total equivalence in range [(805306367, 1073741823, 'rdi'), (268435455, 536870911, 'rsi')]
+total equivalence in range [(536870911, 1073741823, 'rdi'), (536870911, 1073741823, 'rsi')]
+total equivalence in range [(-1, 1073741823, 'rdi'), (1073741823, 2147483647, 'rsi')]
+total equivalence in range [(1073741823, 1342177279, 'rdi'), (268435455, 536870911, 'rsi')]
+total equivalence in range [(1342177279, 1610612735, 'rdi'), (268435455, 536870911, 'rsi')]
+total equivalence in range [(1073741823, 1610612735, 'rdi'), (536870911, 1073741823, 'rsi')]
+total equivalence in range [(1610612735, 1879048191, 'rdi'), (268435455, 536870911, 'rsi')]
+total equivalence in range [(1879048191, 2147483647, 'rdi'), (268435455, 536870911, 'rsi')]
+total equivalence in range [(1610612735, 2147483647, 'rdi'), (536870911, 1073741823, 'rsi')]
+total equivalence in range [(1073741823, 2147483647, 'rdi'), (1073741823, 2147483647, 'rsi')]
+----------EQ-----------
+---------NEQ-----------
+[[(-1, 268435455, 'rdi'), (-1, 268435455, 'rsi')], [(268435455, 536870911, 'rdi'), (-1, 268435455, 'rsi')], [(536870911, 805306367, 'rdi'), (-1, 268435455, 'rsi')], [(805306367, 1073741823, 'rdi'), (-1, 268435455, 'rsi')], [(1073741823, 1342177279, 'rdi'), (-1, 268435455, 'rsi')], [(1342177279, 1610612735, 'rdi'), (-1, 268435455, 'rsi')], [(1610612735, 1879048191, 'rdi'), (-1, 268435455, 'rsi')], [(1879048191, 2147483647, 'rdi'), (-1, 268435455, 'rsi')]]
+----------------------------------
+total equivalence lower bound 17870283312816193537 total 18446744073709551616
+Percentage 96.87499995343387%
+total nonequivalence upper bound 576460752303423488 total 18446744073709551616
+Percentage 3.125%
+sum of totalEq and totalNeq 18446744065119617025
+total time 1.903409481048584 s
+total time 0.031723491350809735 m

@@ -1,0 +1,12 @@
+oldV   newV   client   None   None   3   None   None
+True
+Not equivalent :(
+==========================
+[rdi = 2147483648, rsi = 3221221376, R = 1]
+{'rsi', 'R', 'rdi'}
+True
+==========================
+Not nonequivalent for all the domain space
+At least one equivalent solution
+[rdi = 1819282430, rsi = 2368733183, R = 3280906368]
+total time  1.765916109085083

@@ -1,0 +1,330 @@
+CLEVER/ltfive2/EqWMain/ResultclientNEQ.smt2
+CLEVER/ltfive2/EqWMain/ResultclientEQ.smt2
+Satisfiability of solver :  sat
+rdi
+R
+Calculate for 32 bits
+=======================ALGO : Divide And Search==================
+variable is :  rdi
+Not equivalent; go further case 1  0
+Not equivalent; go further case 1  1
+Not equivalent; go further case 1  2
+Not equivalent; go further case 1  3
+equivalent for  -2013265921  to  -1879048194  range
+Not equivalent; go further case 1  3
+equivalent for  -2080374785  to  -2013265922  range
+Not equivalent; go further case 1  3
+equivalent for  -2113929217  to  -2080374786  range
+Not equivalent; go further case 1  3
+equivalent for  -2130706433  to  -2113929218  range
+Not equivalent; go further case 1  3
+equivalent for  -2139095041  to  -2130706434  range
+Not equivalent; go further case 1  3
+equivalent for  -2143289345  to  -2139095042  range
+Not equivalent; go further case 1  3
+equivalent for  -2145386497  to  -2143289346  range
+Not equivalent; go further case 1  3
+equivalent for  -2146435073  to  -2145386498  range
+Not equivalent; go further case 1  3
+equivalent for  -2146959361  to  -2146435074  range
+Not equivalent; go further case 1  3
+equivalent for  -2147221505  to  -2146959362  range
+Not equivalent; go further case 1  3
+equivalent for  -2147352577  to  -2147221506  range
+Not equivalent; go further case 1  3
+equivalent for  -2147418113  to  -2147352578  range
+Not equivalent; go further case 1  3
+equivalent for  -2147450881  to  -2147418114  range
+Not equivalent; go further case 1  3
+equivalent for  -2147467265  to  -2147450882  range
+Not equivalent; go further case 1  3
+equivalent for  -2147475457  to  -2147467266  range
+Not equivalent; go further case 1  3
+equivalent for  -2147479553  to  -2147475458  range
+Not equivalent; go further case 1  3
+equivalent for  -2147481601  to  -2147479554  range
+Not equivalent; go further case 1  3
+equivalent for  -2147482625  to  -2147481602  range
+Not equivalent; go further case 1  3
+equivalent for  -2147483137  to  -2147482626  range
+Not equivalent; go further case 1  3
+equivalent for  -2147483393  to  -2147483138  range
+Not equivalent; go further case 1  3
+equivalent for  -2147483521  to  -2147483394  range
+Not equivalent; go further case 1  3
+equivalent for  -2147483585  to  -2147483522  range
+Not equivalent; go further case 1  3
+equivalent for  -2147483617  to  -2147483586  range
+Not equivalent; go further case 1  3
+equivalent for  -2147483633  to  -2147483618  range
+Not equivalent; go further case 1  3
+equivalent for  -2147483641  to  -2147483634  range
+Not equivalent; go further case 1  3
+equivalent for  -2147483645  to  -2147483642  range
+Not equivalent; go further case 1  3
+equivalent for  -2147483647  to  -2147483646  range
+Not equivalent; go further case 1  3
+Total nonequivalence for  -2147483648  to  -2147483648
+Not equivalent; go further case 2  3
+equivalent for  -1879048193  to  -1744830466  range
+Not equivalent; go further case 2  3
+Not equivalent; go further case 1  4
+Not equivalent; go further case 1  5
+equivalent for  -1744830465  to  -1728053250  range
+Not equivalent; go further case 2  5
+equivalent for  -1728053249  to  -1719664642  range
+Not equivalent; go further case 2  5
+Not equivalent; go further case 1  6
+Not equivalent; go further case 1  7
+Not equivalent; go further case 2  7
+Total nonequivalence for  -1717567489  to  -1715470338
+Not equivalent; go further case 2  6
+Total nonequivalence for  -1715470337  to  -1711276034
+Not equivalent; go further case 2  5
+Total nonequivalence for  -1711276033  to  -1677721602
+Not equivalent; go further case 2  4
+Total nonequivalence for  -1677721601  to  -1610612738
+Not equivalent; go further case 2  2
+Not equivalent; go further case 1  3
+Total nonequivalence for  -1610612737  to  -1342177282
+Not equivalent; go further case 2  3
+equivalent for  -1207959553  to  -1073741826  range
+Not equivalent; go further case 1  3
+equivalent for  -1275068417  to  -1207959554  range
+Not equivalent; go further case 1  3
+Not equivalent; go further case 1  4
+Total nonequivalence for  -1342177281  to  -1308622850
+Not equivalent; go further case 2  4
+Not equivalent; go further case 1  5
+Total nonequivalence for  -1308622849  to  -1291845634
+Not equivalent; go further case 2  5
+equivalent for  -1283457025  to  -1275068418  range
+Not equivalent; go further case 1  5
+equivalent for  -1287651329  to  -1283457026  range
+Not equivalent; go further case 1  5
+Not equivalent; go further case 1  6
+Total nonequivalence for  -1291845633  to  -1289748482
+Not equivalent; go further case 2  6
+Not equivalent; go further case 1  7
+Total nonequivalence for  -1289748481  to  -1288699906
+Not equivalent; go further case 2  7
+Not equivalent; go further case 2  1
+Not equivalent; go further case 1  2
+Not equivalent; go further case 1  3
+equivalent for  -1073741825  to  -939524098  range
+Not equivalent; go further case 2  3
+equivalent for  -939524097  to  -872415234  range
+Not equivalent; go further case 2  3
+Not equivalent; go further case 1  4
+Not equivalent; go further case 1  5
+equivalent for  -872415233  to  -864026626  range
+Not equivalent; go further case 2  5
+equivalent for  -864026625  to  -859832322  range
+Not equivalent; go further case 2  5
+Not equivalent; go further case 1  6
+Not equivalent; go further case 1  7
+Not equivalent; go further case 2  7
+Total nonequivalence for  -858783745  to  -857735170
+Not equivalent; go further case 2  6
+Total nonequivalence for  -857735169  to  -855638018
+Not equivalent; go further case 2  5
+Total nonequivalence for  -855638017  to  -838860802
+Not equivalent; go further case 2  4
+Total nonequivalence for  -838860801  to  -805306370
+Not equivalent; go further case 2  3
+Total nonequivalence for  -805306369  to  -536870914
+Not equivalent; go further case 2  2
+equivalent for  -268435457  to  -2  range
+Not equivalent; go further case 1  2
+equivalent for  -402653185  to  -268435458  range
+Not equivalent; go further case 1  2
+Not equivalent; go further case 1  3
+Total nonequivalence for  -536870913  to  -469762050
+Not equivalent; go further case 2  3
+Not equivalent; go further case 1  4
+Total nonequivalence for  -469762049  to  -436207618
+Not equivalent; go further case 2  4
+equivalent for  -419430401  to  -402653186  range
+Not equivalent; go further case 1  4
+equivalent for  -427819009  to  -419430402  range
+Not equivalent; go further case 1  4
+Not equivalent; go further case 1  5
+Total nonequivalence for  -436207617  to  -432013314
+Not equivalent; go further case 2  5
+Not equivalent; go further case 1  6
+Total nonequivalence for  -432013313  to  -429916162
+Not equivalent; go further case 2  6
+equivalent for  -428867585  to  -427819010  range
+Not equivalent; go further case 1  6
+equivalent for  -429391873  to  -428867586  range
+Not equivalent; go further case 1  6
+Not equivalent; go further case 1  7
+Total nonequivalence for  -429916161  to  -429654018
+Not equivalent; go further case 2  7
+Not equivalent; go further case 2  0
+Not equivalent; go further case 1  1
+Not equivalent; go further case 1  2
+equivalent for  -1  to  268435454  range
+Not equivalent; go further case 2  2
+equivalent for  268435455  to  402653182  range
+Not equivalent; go further case 2  2
+Not equivalent; go further case 1  3
+Not equivalent; go further case 1  4
+equivalent for  402653183  to  419430398  range
+Not equivalent; go further case 2  4
+equivalent for  419430399  to  427819006  range
+Not equivalent; go further case 2  4
+Not equivalent; go further case 1  5
+Not equivalent; go further case 1  6
+equivalent for  427819007  to  428867582  range
+Not equivalent; go further case 2  6
+equivalent for  428867583  to  429391870  range
+Not equivalent; go further case 2  6
+Not equivalent; go further case 1  7
+Not equivalent; go further case 2  7
+Total nonequivalence for  429654015  to  429916158
+Not equivalent; go further case 2  6
+Total nonequivalence for  429916159  to  432013310
+Not equivalent; go further case 2  5
+Total nonequivalence for  432013311  to  436207614
+Not equivalent; go further case 2  4
+Total nonequivalence for  436207615  to  469762046
+Not equivalent; go further case 2  3
+Total nonequivalence for  469762047  to  536870910
+Not equivalent; go further case 2  2
+Not equivalent; go further case 1  3
+Total nonequivalence for  536870911  to  805306366
+Not equivalent; go further case 2  3
+equivalent for  939524095  to  1073741822  range
+Not equivalent; go further case 1  3
+equivalent for  872415231  to  939524094  range
+Not equivalent; go further case 1  3
+Not equivalent; go further case 1  4
+Total nonequivalence for  805306367  to  838860798
+Not equivalent; go further case 2  4
+Not equivalent; go further case 1  5
+Total nonequivalence for  838860799  to  855638014
+Not equivalent; go further case 2  5
+equivalent for  864026623  to  872415230  range
+Not equivalent; go further case 1  5
+equivalent for  859832319  to  864026622  range
+Not equivalent; go further case 1  5
+Not equivalent; go further case 1  6
+Total nonequivalence for  855638015  to  857735166
+Not equivalent; go further case 2  6
+Not equivalent; go further case 1  7
+Total nonequivalence for  857735167  to  858783742
+Not equivalent; go further case 2  7
+Not equivalent; go further case 2  1
+Not equivalent; go further case 1  2
+Not equivalent; go further case 1  3
+equivalent for  1073741823  to  1207959550  range
+Not equivalent; go further case 2  3
+equivalent for  1207959551  to  1275068414  range
+Not equivalent; go further case 2  3
+Not equivalent; go further case 1  4
+Not equivalent; go further case 1  5
+equivalent for  1275068415  to  1283457022  range
+Not equivalent; go further case 2  5
+equivalent for  1283457023  to  1287651326  range
+Not equivalent; go further case 2  5
+Not equivalent; go further case 1  6
+Not equivalent; go further case 1  7
+Not equivalent; go further case 2  7
+Total nonequivalence for  1288699903  to  1289748478
+Not equivalent; go further case 2  6
+Total nonequivalence for  1289748479  to  1291845630
+Not equivalent; go further case 2  5
+Total nonequivalence for  1291845631  to  1308622846
+Not equivalent; go further case 2  4
+Total nonequivalence for  1308622847  to  1342177278
+Not equivalent; go further case 2  3
+Total nonequivalence for  1342177279  to  1610612734
+Not equivalent; go further case 2  2
+equivalent for  1879048191  to  2147483646  range
+Not equivalent; go further case 1  2
+equivalent for  1744830463  to  1879048190  range
+Not equivalent; go further case 1  2
+Not equivalent; go further case 1  3
+Total nonequivalence for  1610612735  to  1677721598
+Not equivalent; go further case 2  3
+Not equivalent; go further case 1  4
+Total nonequivalence for  1677721599  to  1711276030
+Not equivalent; go further case 2  4
+equivalent for  1728053247  to  1744830462  range
+Not equivalent; go further case 1  4
+equivalent for  1719664639  to  1728053246  range
+Not equivalent; go further case 1  4
+Not equivalent; go further case 1  5
+Total nonequivalence for  1711276031  to  1715470334
+Not equivalent; go further case 2  5
+Not equivalent; go further case 1  6
+Total nonequivalence for  1715470335  to  1717567486
+Not equivalent; go further case 2  6
+equivalent for  1718616063  to  1719664638  range
+Not equivalent; go further case 1  6
+equivalent for  1718091775  to  1718616062  range
+Not equivalent; go further case 1  6
+Not equivalent; go further case 1  7
+Total nonequivalence for  1717567487  to  1717829630
+Not equivalent; go further case 2  7
+++++++++++++++++++++++++++++++++++++++++
+[-1719664641, -1717567490]
+[-1288699905, -1287651330]
+[-859832321, -858783746]
+[-429654017, -429391874]
+[429391871, 429654014]
+[858783743, 859832318]
+[1287651327, 1288699902]
+[1717829631, 1718091774]
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable  rdi  is  2571632638
+Total nonequivalence for variable  rdi  is  7077888
+Total range is  4294967296
+Percentage of variable  rdi 59.87548823468387 %
+===============================
+Total percentage of  1  variables is  59.87548823468387  %
+===============================
+===========END RESULT of ALGO : Divide And Search==================
+===========================ALGO : Range Search==================
+=======================
+For values greater than 0
+=======================
+variable is :  rdi
+val  3  div  8 max_value  429496728
+=======================
+For values less than 0
+=======================
+variable is :  rdi
+Min value  -2147483648.0  valcheck  0
+Min value  -1073741824.0  valcheck  1
+Min value  -536870912.0  valcheck  2
+Min value  -268435456.0  valcheck  3
+unsat
+val  3  div  8 min_value  -429496729
+========================
+Check for value 0
+========================
+variable is :  rdi
+Equivalent for value 0
+========================
+variable :  rdi
+Max  429496728  Min  -429496729
+Range diff  858993458
+Percentage of varable  rdi  is  19.999999972060323 %
+========================
+Total domain :  4294967296
+Equivalence domain :  858993458
+Minimum percentage of equivalent domain  19.999999972060323 %
+==============================================
+===========END RESULT of ALGO : Range Search==================
+Total domain is  4294967296
+variable  rdi
+total equivalent domain is  2571632638
+total nonequivalent domain is  7077888
+===================Percentage of equivalence domain===================
+For variable  rdi
+Final total equivalent tuples are  2571632638
+Final percentage of tuples  59.87548823468387 %
+Final total nonequivalent tuples are  1723334658
+Final percentage of tuples  40.12451176531613 %

@@ -1,0 +1,12 @@
+old   new   foo   None   None   25   None
+True
+Not equivalent :(
+==========================
+[rsi = 17, rdi = 4294967271, R = 4294966871]
+{'rsi', 'rdi', 'R'}
+True
+==========================
+Not equivalent for all the domain space
+At least one equivalent solution
+[rsi = 3149198739, rdi = 3579139406, R = 0]
+total time  2.3791582584381104

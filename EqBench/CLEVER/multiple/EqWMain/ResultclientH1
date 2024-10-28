@@ -1,0 +1,12 @@
+CLEVER/multiple/EqWMain/ResultclientNEQ.smt2
+CLEVER/multiple/EqWMain/ResultclientEQ.smt2
+Satisfiability of solver :  sat
+rdi
+R
+Calculate for 32 bits
+=======================ALGO : Divide And Search==================
+variable is :  rdi
+Not equivalent; go further case 1  0
+Not equivalent; go further case 1  1
+Not equivalent; go further case 1  2
+Not equivalent; go further case 1  3

@@ -1,0 +1,6 @@
+oldV   newV   lib   None   None   3   None
+True
+Not equivalent :(
+[rdi = 4294966271, return = 0]
+{'rdi', 'return'}
+total time  0.5630185604095459

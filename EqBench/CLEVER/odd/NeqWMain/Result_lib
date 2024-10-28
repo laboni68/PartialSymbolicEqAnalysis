@@ -1,0 +1,10 @@
+oldV   newV   lib   None   None   3   None
+True
+Not equivalent :(
+==========================
+[rdi = 4294967295, R = 1]
+{'rdi', 'R'}
+False
+==========================
+Non equivalent for whole domain
+total time  0.8288064002990723

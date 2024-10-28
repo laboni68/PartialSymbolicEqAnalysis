@@ -1,0 +1,40 @@
+CLEVER/LoopUnreach20/NeqWMain/ResultmainNEQ.smt2
+Calculate for 32 bits
+Satisfiability of solver :  sat
+rdi
+R
+['rdi']
+variable is :  rdi
+unsat
+Initial logarithmic  28
+val  27  div  134217728 max_value  17.999999991618097
+logarithmic value  31
+=======================
+For values less than 0
+=======================
+variable is :  rdi
+unsat
+val  0  div  1 min_value  -2147483648.0
+========================
+Check for value 0
+========================
+variable is :  rdi
+Equivalent for value 0
+========================
+variable :  rdi
+Max  17.999999991618097  Min  -2147483648.0
+Range diff  2147483667.0
+Percentage of varable  rdi  is  50.000000454019755 %
+========================
+Total domain :  4294967295
+Equivalence domain :  2147483667.0
+Minimum percentage of equivalent domain  50.000000454019755 %
+==============================================
+==============================================
+Check the given range
+Before  sat
+loop  rdi MAX  2147483647 max range  17  Min  -2147483648  min range  -2147483648
+After unsat
+---------------------------------------------------------
+==============================================
+==============================================

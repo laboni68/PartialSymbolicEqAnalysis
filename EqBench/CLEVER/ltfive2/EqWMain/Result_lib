@@ -1,0 +1,12 @@
+oldV   newV   lib   None   None   3   None   None
+True
+Not equivalent :(
+==========================
+[rdi = 4294966271, R = 0]
+{'rdi', 'R'}
+True
+==========================
+Not nonequivalent for all the domain space
+At least one equivalent solution
+[rdi = 250955352, R = 250955352]
+total time  0.6737880706787109

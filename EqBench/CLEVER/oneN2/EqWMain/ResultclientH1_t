@@ -1,0 +1,122 @@
+CLEVER/oneN2/EqWMain/ResultclientNEQ.smt2
+CLEVER/oneN2/EqWMain/ResultclientEQ.smt2
+Satisfiability of solver :  sat
+rdi
+R
+Calculate for 32 bits
+=======================ALGO : Divide And Search==================
+variable is :  rdi
+equivalent for  -1  to  2147483646  range
+Not equivalent; go further case 1  0
+equivalent for  -1073741825  to  -2  range
+Not equivalent; go further case 1  0
+equivalent for  -1610612737  to  -1073741826  range
+Not equivalent; go further case 1  0
+equivalent for  -1879048193  to  -1610612738  range
+Not equivalent; go further case 1  0
+equivalent for  -2013265921  to  -1879048194  range
+Not equivalent; go further case 1  0
+equivalent for  -2080374785  to  -2013265922  range
+Not equivalent; go further case 1  0
+equivalent for  -2113929217  to  -2080374786  range
+Not equivalent; go further case 1  0
+equivalent for  -2130706433  to  -2113929218  range
+Not equivalent; go further case 1  0
+equivalent for  -2139095041  to  -2130706434  range
+Not equivalent; go further case 1  0
+equivalent for  -2143289345  to  -2139095042  range
+Not equivalent; go further case 1  0
+equivalent for  -2145386497  to  -2143289346  range
+Not equivalent; go further case 1  0
+equivalent for  -2146435073  to  -2145386498  range
+Not equivalent; go further case 1  0
+equivalent for  -2146959361  to  -2146435074  range
+Not equivalent; go further case 1  0
+equivalent for  -2147221505  to  -2146959362  range
+Not equivalent; go further case 1  0
+equivalent for  -2147352577  to  -2147221506  range
+Not equivalent; go further case 1  0
+equivalent for  -2147418113  to  -2147352578  range
+Not equivalent; go further case 1  0
+equivalent for  -2147450881  to  -2147418114  range
+Not equivalent; go further case 1  0
+equivalent for  -2147467265  to  -2147450882  range
+Not equivalent; go further case 1  0
+equivalent for  -2147475457  to  -2147467266  range
+Not equivalent; go further case 1  0
+equivalent for  -2147479553  to  -2147475458  range
+Not equivalent; go further case 1  0
+equivalent for  -2147481601  to  -2147479554  range
+Not equivalent; go further case 1  0
+equivalent for  -2147482625  to  -2147481602  range
+Not equivalent; go further case 1  0
+equivalent for  -2147483137  to  -2147482626  range
+Not equivalent; go further case 1  0
+equivalent for  -2147483393  to  -2147483138  range
+Not equivalent; go further case 1  0
+equivalent for  -2147483521  to  -2147483394  range
+Not equivalent; go further case 1  0
+equivalent for  -2147483585  to  -2147483522  range
+Not equivalent; go further case 1  0
+equivalent for  -2147483617  to  -2147483586  range
+Not equivalent; go further case 1  0
+equivalent for  -2147483633  to  -2147483618  range
+Not equivalent; go further case 1  0
+equivalent for  -2147483641  to  -2147483634  range
+Not equivalent; go further case 1  0
+equivalent for  -2147483645  to  -2147483642  range
+Not equivalent; go further case 1  0
+equivalent for  -2147483647  to  -2147483646  range
+Not equivalent; go further case 1  0
+Total nonequivalence for  -2147483648  to  -2147483648
+++++++++++++++++++++++++++++++++++++++++
+[-2147483648, -2147483648]
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable  rdi  is  4294967295
+Total nonequivalence for variable  rdi  is  1
+Total range is  4294967296
+Percentage of variable  rdi 99.99999997671694 %
+===============================
+Total percentage of  1  variables is  99.99999997671694  %
+===============================
+===========END RESULT of ALGO : Divide And Search==================
+===========================ALGO : Range Search==================
+=======================
+For values greater than 0
+=======================
+variable is :  rdi
+val  0  div  1 max_value  2147483647
+=======================
+For values less than 0
+=======================
+variable is :  rdi
+unsat
+val  1  div  2 min_value  -2147483647
+========================
+Check for value 0
+========================
+variable is :  rdi
+Equivalent for value 0
+========================
+variable :  rdi
+Max  2147483647  Min  -2147483647
+Range diff  4294967295
+Percentage of varable  rdi  is  99.99999997671694 %
+========================
+Total domain :  4294967296
+Equivalence domain :  4294967295
+Minimum percentage of equivalent domain  99.99999997671694 %
+==============================================
+===========END RESULT of ALGO : Range Search==================
+Total domain is  4294967296
+variable  rdi
+total equivalent domain is  4294967295
+total nonequivalent domain is  1
+===================Percentage of equivalence domain===================
+For variable  rdi
+Final total equivalent tuples are  4294967295
+Final percentage of tuples  99.99999997671694 %
+Final upper bounded nonequivalent tuples are  1
+Final percentage of tuples  2.3283064365386963e-08 %
+total time  2.302607536315918  s
+total time  0.03837679227193196  m

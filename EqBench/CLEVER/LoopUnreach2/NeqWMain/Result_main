@@ -1,0 +1,10 @@
+old   new   main   None   None   20   None
+True
+Not equivalent :(
+==========================
+[R = 0]
+{'R'}
+False
+==========================
+Non equivalent for whole domain
+total time  0.5274076461791992

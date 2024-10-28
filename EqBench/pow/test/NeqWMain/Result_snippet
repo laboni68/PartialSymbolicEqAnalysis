@@ -1,0 +1,10 @@
+oldV   newV   snippet   None   None   3   None   None
+True
+Not equivalent :(
+==========================
+[rdi = 775145471, rsi = 4023939073, R = 4]
+{'rdi', 'R', 'rsi'}
+False
+==========================
+Non equivalent for whole domain
+total time  0.8904707431793213

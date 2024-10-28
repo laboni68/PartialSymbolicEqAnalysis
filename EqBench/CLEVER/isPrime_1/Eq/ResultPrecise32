@@ -1,0 +1,50 @@
+Resultlib.smt2
+Calculate for 32 bits
+Satisfiability of solver :  sat
+rsi
+rdi
+return
+['rsi', 'rdi']
+variable is :  rsi
+unsat
+val  31  div  2147483648 max_value  0.9999999995343387
+variable is :  rdi
+unsat
+val  30  div  1073741824 max_value  1.9999999990686774
+=======================
+For values less than 0
+=======================
+variable is :  rsi
+unsat
+val  32  div  4294967296 min_value  -0.875
+variable is :  rdi
+unsat
+val  0  div  1 min_value  -2147483648.0
+========================
+variable :  rsi
+Max  0.9999999995343387  Min  -0.875
+Range diff  1.8749999995343387
+Percentage of varable  rsi  is  4.365574568442293e-08 %
+========================
+========================
+variable :  rdi
+Max  1.9999999990686774  Min  -2147483648.0
+Range diff  2147483650.0
+Percentage of varable  rdi  is  50.00000005820766 %
+========================
+Total domain :  18446744065119617025
+Equivalence domain :  4026531842.75
+Minimum percentage of equivalent domain  2.1827872867622453e-08 %
+==============================================
+==============================================
+Check the given range
+Before  sat
+loop  rsi MAX  2147483647 max range  0  Min  -2147483648  min range  0
+After unsat
+---------------------------------------------------------
+Before  sat
+loop  rdi MAX  2147483647 max range  1  Min  -2147483648  min range  -2147483648
+After unsat
+---------------------------------------------------------
+==============================================
+==============================================

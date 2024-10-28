@@ -1,0 +1,12 @@
+old   new   main   None   None   20   None
+True
+Not equivalent :(
+==========================
+[rdi = 6, R = 30]
+{'rdi', 'R'}
+True
+==========================
+Not equivalent for all the domain space
+At least one equivalent solution
+[rdi = 1739455125, R = 0]
+total time  1.2312920093536377

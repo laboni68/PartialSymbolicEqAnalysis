@@ -1,0 +1,6 @@
+oldV   newV   client   None   None   3   None
+True
+Not equivalent :(
+[rdi = 765041191, return = 4294967295]
+{'rdi', 'return'}
+total time  1.0903067588806152

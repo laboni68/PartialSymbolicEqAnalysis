@@ -1,0 +1,9 @@
+CLEVER/multiple/EqWMain/ResultclientNEQ.smt2
+CLEVER/multiple/EqWMain/ResultclientEQ.smt2
+Satisfiability of solver :  sat
+rdi
+R
+Calculate for 32 bits
+Multi dimensional divide N search
+i =  0  is  rdi
+[-2147483648, 2147483648, 'rdi']

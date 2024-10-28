@@ -1,0 +1,37 @@
+CLEVER/isPrime_1/Eq/Resultlib.smt2
+Calculate for 32 bits
+Satisfiability of solver :  sat
+rsi
+rdi
+return
+['rsi', 'rdi']
+variable is :  rsi
+unsat
+val  31  div  2147483648 max_value  0.9999999995343387
+variable is :  rdi
+unsat
+val  30  div  1073741824 max_value  1.9999999990686774
+=======================
+For values less than 0
+=======================
+variable is :  rsi
+unsat
+val  32  div  4294967296 min_value  -0.5
+variable is :  rdi
+unsat
+val  0  div  1 min_value  -2147483648.0
+========================
+variable :  rsi
+Max  0.9999999995343387  Min  -0.5
+Range diff  1.4999999995343387
+Percentage of varable  rsi  is  3.492459654536994e-08 %
+========================
+========================
+variable :  rdi
+Max  1.9999999990686774  Min  -2147483648.0
+Range diff  2147483650.0
+Percentage of varable  rdi  is  50.00000005820766 %
+========================
+Total domain :  18446744065119617025
+Equivalence domain :  3221225474.0
+Minimum percentage of equivalent domain  1.746229829301376e-08 %

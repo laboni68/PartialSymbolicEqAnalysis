@@ -1,0 +1,58 @@
+CLEVER/is_prime1/EqWMain/ResultlibNEQ.smt2
+Calculate for 32 bits
+Satisfiability of solver :  sat
+rsi
+rdi
+R
+['rsi', 'rdi']
+variable is :  rsi
+unsat
+Initial logarithmic  32
+val  31  div  2147483648 max_value  0.9999999995343387
+variable is :  rdi
+unsat
+Initial logarithmic  63
+val  30  div  1073741824 max_value  1.9999999990686774
+logarithmic value  63
+=======================
+For values less than 0
+=======================
+variable is :  rsi
+unsat
+val  32  div  4294967296 min_value  -0.5
+variable is :  rdi
+unsat
+val  0  div  1 min_value  -2147483648.0
+========================
+Check for value 0
+========================
+variable is :  rsi
+Equivalent for value 0
+variable is :  rdi
+Equivalent for value 0
+========================
+variable :  rsi
+Max  0.9999999995343387  Min  -0.5
+Range diff  2.4999999995343387
+Percentage of varable  rsi  is  5.8207660902625386e-08 %
+========================
+========================
+variable :  rdi
+Max  1.9999999990686774  Min  -2147483648.0
+Range diff  2147483651.0
+Percentage of varable  rdi  is  50.00000006984919 %
+========================
+Total domain :  18446744073709551616
+Equivalence domain :  5368709126.5
+Minimum percentage of equivalent domain  2.9103830491970274e-08 %
+==============================================
+==============================================
+Check the given range
+Before  sat
+For no range they can be said as equivalent
+Before  sat
+loop  rdi MAX  2147483647 max range  1  Min  -2147483648  min range  -2147483648
+After unsat
+---------------------------------------------------------
+==============================================
+==============================================

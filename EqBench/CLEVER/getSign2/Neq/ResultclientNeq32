@@ -1,0 +1,40 @@
+CLEVER/getSign2/Neq/Resultclient.smt2
+Calculate for 32 bits
+Satisfiability of solver :  sat
+rdi
+return
+['rdi']
+variable is :  rdi
+unsat
+Initial logarithmic  1
+val  0  div  1 max_value  2147483647.0
+logarithmic value  1
+=======================
+For values less than 0
+=======================
+variable is :  rdi
+unsat
+val  0  div  1 min_value  -2147483648.0
+========================
+Check for value 0
+========================
+variable is :  rdi
+Not equivalent for 0
+========================
+variable :  rdi
+Max  2147483647.0  Min  -2147483648.0
+Range diff  4294967295.0
+Percentage of varable  rdi  is  99.99999997671694 %
+========================
+Total domain :  4294967296
+Equivalence domain :  4294967295.0
+Minimum percentage of equivalent domain  99.99999997671694 %
+==============================================
+==============================================
+Check the given range
+Before  sat
+loop  rdi MAX  2147483647 max range  2147483647  Min  -2147483648  min range  -2147483648
+After sat
+---------------------------------------------------------
+==============================================
+==============================================

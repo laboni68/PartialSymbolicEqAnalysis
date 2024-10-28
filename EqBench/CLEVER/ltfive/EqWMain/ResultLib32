@@ -1,0 +1,24 @@
+CLEVER/ltfive/EqWMain/Resultlib.smt2
+Calculate for 32 bits
+Satisfiability of solver :  sat
+rdi
+return
+['rdi']
+variable is :  rdi
+unsat
+val  31  div  2147483648 max_value  0.9999999995343387
+=======================
+For values less than 0
+=======================
+variable is :  rdi
+sat
+val  33  div  8589934592 min_value  -0.25
+========================
+variable :  rdi
+Max  0.9999999995343387  Min  -0.25
+Range diff  1.2499999995343387
+Percentage of varable  rdi  is  2.9103830452667945e-08 %
+========================
+Total domain :  4294967295
+Equivalence domain :  1.2499999995343387
+Minimum percentage of equivalent domain  2.9103830452667945e-08 %

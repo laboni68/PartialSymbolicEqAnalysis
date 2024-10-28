@@ -1,0 +1,28 @@
+CLEVER/oneN2/EqWMain/ResultclientNEQ.smt2
+CLEVER/oneN2/EqWMain/ResultclientEQ.smt2
+Satisfiability of solver :  sat
+rdi
+R
+Calculate for 32 bits
+Multi dimensional divide N search
+i =  0  is  rdi
+[-2147483648, 2147483648, 'rdi']
+total equivalence in range  [(-2130706432, -2113929216, 'rdi')]
+total equivalence in range  [(-2113929216, -2080374784, 'rdi')]
+total equivalence in range  [(-2080374784, -2013265920, 'rdi')]
+total equivalence in range  [(-2013265920, -1879048192, 'rdi')]
+total equivalence in range  [(-1879048192, -1610612736, 'rdi')]
+total equivalence in range  [(-1610612736, -1073741824, 'rdi')]
+total equivalence in range  [(-1073741824, 0, 'rdi')]
+total equivalence in range  [(0, 2147483648, 'rdi')]
+----------EQ-----------
+---------NEQ-----------
+[[(-2147483648, -2130706432, 'rdi')]]
+----------------------------------
+total equivalence lower bound  4278190080  total  4294967296
+Percentage  99.609375 %
+total nonequivalence upper bound  16777216  total  4294967296
+Percentage  0.390625 %
+sum of totalEq and totalNeq  4294967296
+total time  0.44733715057373047  s
+total time  0.0074556191762288416  m
