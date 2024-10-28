@@ -1,0 +1,9 @@
+Resultext4_fill_flex_info_SnippetEQ.smt2.cnf 31.5015 31.8929 75 2.9509
+Result: Lower Bound = 31.5015
+Result: Upper Bound = 31.8929
+Result: Sound Lower Bound = 31.6448 with 60%
+Result: Sound Upper Bound = 32.2088 with 60%
+Result: Filename = Resultext4_fill_flex_info_SnippetEQ.smt2.cnf
+Result: #ExhaustUptoC Query = 7
+Result: #Sat Query = 75
+Result: Running Time = 2.9509

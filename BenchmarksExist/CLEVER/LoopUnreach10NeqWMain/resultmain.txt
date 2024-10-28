@@ -1,0 +1,9 @@
+[[Or(Extract(31, 0, rdi) <= 8,
+     And(Extract(31, 31, rdi) == 0,
+         Extract(31, 0, rdi) <= 11,
+         Not(Extract(31, 0, rdi) <= 8)),
+     And(Not(Extract(31, 0, rdi) <= 11),
+         Not(Extract(31, 0, rdi) <= 8))),
+  Or(Extract(31, 0, rdi) <= 8,
+     And(Not(Extract(31, 0, rdi) <= 11),
+         Not(Extract(31, 0, rdi) <= 8)))]]

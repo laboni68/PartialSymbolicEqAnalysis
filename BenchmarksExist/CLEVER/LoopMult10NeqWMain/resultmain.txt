@@ -1,0 +1,4 @@
+[[Or(rdi <= 8,
+     And(rdi <= 11, Not(rdi <= 8), 10*rdi == 0),
+     And(Not(rdi <= 11), Not(rdi <= 8))),
+  Or(rdi <= 8, And(Not(rdi <= 11), Not(rdi <= 8)))]]

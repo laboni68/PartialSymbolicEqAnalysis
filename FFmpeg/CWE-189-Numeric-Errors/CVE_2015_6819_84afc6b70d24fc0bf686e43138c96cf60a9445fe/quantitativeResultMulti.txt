@@ -1,0 +1,25 @@
+/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/FFmpeg/CWE-189-Numeric-Errors/CVE_2015_6819_84afc6b70d24fc0bf686e43138c96cf60a9445fe/Resultff_mjpeg_decode_frame_SnippetNEQ.smt2/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/FFmpeg/CWE-189-Numeric-Errors/CVE_2015_6819_84afc6b70d24fc0bf686e43138c96cf60a9445fe/Resultff_mjpeg_decode_frame_SnippetEQ.smt2Satisfiability of solver : sat
+rsi
+rdi
+R
+Calculate for 32 bits
+Multi dimensional divide N search
+i = 0 is rsi
+[-2147483648, 2147483648, 'rsi']
+i = 1 is rdi
+[-2147483648, 2147483648, 'rdi']
+total nonequivalence in range[(-2147483648, 0, 'rsi'), (-2147483648, 0, 'rdi')]
+total equivalence in range [(-2147483648, 0, 'rsi'), (0, 2147483648, 'rdi')]
+total nonequivalence in range[(0, 2147483648, 'rsi'), (-2147483648, 0, 'rdi')]
+total equivalence in range [(0, 2147483648, 'rsi'), (0, 2147483648, 'rdi')]
+----------EQ-----------
+---------NEQ-----------
+[[(-2147483648, 0, 'rsi'), (-2147483648, 0, 'rdi')], [(0, 2147483648, 'rsi'), (-2147483648, 0, 'rdi')]]
+----------------------------------
+total equivalence lower bound 9223372036854775808 total 18446744073709551616
+Percentage 50.0%
+total nonequivalence upper bound 9223372036854775808 total 18446744073709551616
+Percentage 50.0%
+sum of totalEq and totalNeq 18446744073709551616
+total time 0.1285562515258789 s
+total time 0.002142604192097982 m

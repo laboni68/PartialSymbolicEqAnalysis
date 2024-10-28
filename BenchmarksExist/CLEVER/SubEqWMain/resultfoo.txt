@@ -1,0 +1,1 @@
+[[2*Extract(31, 0, rsi) == 2*Extract(31, 0, rdi)]]

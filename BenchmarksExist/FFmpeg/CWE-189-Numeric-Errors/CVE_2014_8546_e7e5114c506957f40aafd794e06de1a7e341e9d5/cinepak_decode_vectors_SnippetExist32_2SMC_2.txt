@@ -1,0 +1,9 @@
+cinepak_decode_vectors_SnippetExist32_2.smt2.cnf 31.0434 31.4023 93 3.4108
+Result: Lower Bound = 31.0434
+Result: Upper Bound = 31.4023
+Result: Sound Lower Bound = 30.5699 with 60%
+Result: Sound Upper Bound = 31.3309 with 60%
+Result: Filename = cinepak_decode_vectors_SnippetExist32_2.smt2.cnf
+Result: #ExhaustUptoC Query = 13
+Result: #Sat Query = 93
+Result: Running Time = 3.4108

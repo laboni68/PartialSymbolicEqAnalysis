@@ -1,0 +1,43 @@
+Satisfiability of solver : sat
+Variables : ['rdi', 'R']
+Number of variables : 1
+Calculate for unsigned 16
+=======================ALGO : Divide And Search==================
+variable is : rdi
+++++++++++++++++++++++++++++++++++++++++
+[0, 14]
+[15, 22]
+[23, 24]
+[25, 25]
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable rdi is 65510
+Total nonequivalence for variable rdi is 26
+Total range is 65536
+Percentage of variable rdi 99.9603271484375%
+==============================================
+==============================================
+===========================ALGO : Range Search==================
+=======================
+For values greater than 0
+=======================
+variable is : rdi
+val 34 div 17179869184 max_value 0 : 0 is not included
+=======================
+Check for value 0
+=======================
+variable is : rdi
+Not equivalent for 0
+==============================================
+==============================================
+Total domain is 65536
+variable rdi
+total equivalent domain is 65510
+total nonequivalent domain is 26
+===================Percentage of equivalence domain===================
+For variable rdi
+Final total equivalent tuples are 65510
+Final percentage of tuples 99.9603271484375%
+Final upper bounded nonequivalent tuples are 26
+Final percentage of tuples 0.0396728515625%
+total time 2.0639290809631348 s
+total time 0.03439881801605225 m

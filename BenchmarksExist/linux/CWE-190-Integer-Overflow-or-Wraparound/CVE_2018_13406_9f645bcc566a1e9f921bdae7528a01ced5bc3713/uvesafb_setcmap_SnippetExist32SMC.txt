@@ -1,0 +1,9 @@
+uvesafb_setcmap_SnippetExist32.smt2.cnf 126.7640 127.1720 85 49.2241
+Result: Lower Bound = 126.7640
+Result: Upper Bound = 127.1720
+Result: Sound Lower Bound = 126.2013 with 60%
+Result: Sound Upper Bound = 126.8878 with 60%
+Result: Filename = uvesafb_setcmap_SnippetExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 12
+Result: #Sat Query = 85
+Result: Running Time = 49.2241

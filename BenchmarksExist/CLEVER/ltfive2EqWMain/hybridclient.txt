@@ -1,0 +1,110 @@
+/home/laboni/AngrTest/SearchMCRecent/Benchmarks/CLEVER/ltfive2/EqWMain/ResultclientNEQ.smt2
+/home/laboni/AngrTest/SearchMCRecent/Benchmarks/CLEVER/ltfive2/EqWMain/ResultclientEQ.smt2
+Satisfiability of solver :  sat
+rdi
+R
+Calculate for 32 bits
+=======================ALGO : Divide And Search==================
+variable is :  rdi
+Total nonequivalence for  -1717567489  to  -1715470338
+Total nonequivalence for  -1715470337  to  -1711276034
+Total nonequivalence for  -1711276033  to  -1677721602
+Total nonequivalence for  -1677721601  to  -1610612738
+Total nonequivalence for  -858783745  to  -857735170
+Total nonequivalence for  -857735169  to  -855638018
+Total nonequivalence for  -855638017  to  -838860802
+Total nonequivalence for  -838860801  to  -805306370
+Total nonequivalence for  -805306369  to  -536870914
+Total nonequivalence for  429654015  to  429916158
+Total nonequivalence for  429916159  to  432013310
+Total nonequivalence for  432013311  to  436207614
+Total nonequivalence for  436207615  to  469762046
+Total nonequivalence for  469762047  to  536870910
+Total nonequivalence for  1288699903  to  1289748478
+Total nonequivalence for  1289748479  to  1291845630
+Total nonequivalence for  1291845631  to  1308622846
+Total nonequivalence for  1308622847  to  1342177278
+Total nonequivalence for  1342177279  to  1610612734
+++++++++++++++++++++++++++++++++++++++++
+[-2147483648, -2147483648]
+[-1719664641, -1717567490]
+[-1717567489, -1715470338]
+[-1715470337, -1711276034]
+[-1711276033, -1677721602]
+[-1677721601, -1610612738]
+[-1610612737, -1342177282]
+[-1342177281, -1308622850]
+[-1308622849, -1291845634]
+[-1291845633, -1289748482]
+[-1289748481, -1288699906]
+[-1288699905, -1287651330]
+[-859832321, -858783746]
+[-858783745, -857735170]
+[-857735169, -855638018]
+[-855638017, -838860802]
+[-838860801, -805306370]
+[-805306369, -536870914]
+[-536870913, -469762050]
+[-469762049, -436207618]
+[-436207617, -432013314]
+[-432013313, -429916162]
+[-429916161, -429654018]
+[-429654017, -429391874]
+[429391871, 429654014]
+[429654015, 429916158]
+[429916159, 432013310]
+[432013311, 436207614]
+[436207615, 469762046]
+[469762047, 536870910]
+[536870911, 805306366]
+[805306367, 838860798]
+[838860799, 855638014]
+[855638015, 857735166]
+[857735167, 858783742]
+[858783743, 859832318]
+[1287651327, 1288699902]
+[1288699903, 1289748478]
+[1289748479, 1291845630]
+[1291845631, 1308622846]
+[1308622847, 1342177278]
+[1342177279, 1610612734]
+[1610612735, 1677721598]
+[1677721599, 1711276030]
+[1711276031, 1715470334]
+[1715470335, 1717567486]
+[1717567487, 1717829630]
+[1717829631, 1718091774]
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable  rdi  is  2571632639
+Total nonequivalence for variable  rdi  is  1723334657
+Total range is  4294967296
+Percentage of variable  rdi 59.875488257966936 %
+===========================ALGO : Range Search==================
+=======================
+For values greater than 0
+=======================
+variable is :  rdi
+val  3  div  8 max_value  429496728
+=======================
+For values less than 0
+=======================
+variable is :  rdi
+unsat
+val  3  div  8 min_value  -429496729
+========================
+Check for value 0
+========================
+variable is :  rdi
+Equivalent for value 0
+Total domain is  4294967296
+variable  rdi
+total equivalent domain is  2571632639
+total nonequivalent domain is  1723334657
+===================Percentage of equivalence domain===================
+For variable  rdi
+Final total equivalent tuples are  2571632639
+Final percentage of tuples  59.875488257966936 %
+Final upper bounded nonequivalent tuples are  1723334657
+Final percentage of tuples  40.124511742033064 %
+total time  37.565120220184326  s
+total time  0.6260853370030721  m

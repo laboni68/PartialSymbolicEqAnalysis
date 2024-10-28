@@ -1,0 +1,9 @@
+drm_mode_dirtyfb_ioctl_SnippetExist32.smt2.cnf 39.8206 40.3129 76 21.8966
+Result: Lower Bound = 39.8206
+Result: Upper Bound = 40.3129
+Result: Sound Lower Bound = 39.5493 with 60%
+Result: Sound Upper Bound = 40.3429 with 60%
+Result: Filename = drm_mode_dirtyfb_ioctl_SnippetExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 12
+Result: #Sat Query = 76
+Result: Running Time = 21.8966

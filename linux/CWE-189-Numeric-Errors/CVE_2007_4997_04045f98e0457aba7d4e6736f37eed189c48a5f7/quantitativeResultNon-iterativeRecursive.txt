@@ -1,0 +1,43 @@
+/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/linux/CWE-189-Numeric-Errors/CVE_2007_4997_04045f98e0457aba7d4e6736f37eed189c48a5f7/Resultieee80211_rx_SnippetNEQ.smt2/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/linux/CWE-189-Numeric-Errors/CVE_2007_4997_04045f98e0457aba7d4e6736f37eed189c48a5f7/Resultieee80211_rx_SnippetEQ.smt2Satisfiability of solver : sat
+rdi
+rsi
+R
+Calculate for 32 bits
+Multi dimensional divide N search
+i = 0 is rdi
+[-2147483648, 2147483647, 'rdi']
+i = 1 is rsi
+[-2147483648, 2147483647, 'rsi']
+total equivalence in range [(-2147483648, -1, 'rdi'), (-2147483648, -1, 'rsi')]
+total equivalence in range [(-2147483648, -1, 'rdi'), (-1, 2147483647, 'rsi')]
+total equivalence in range [(-1, 2147483647, 'rdi'), (-2147483648, -1, 'rsi')]
+total equivalence in range [(268435455, 536870911, 'rdi'), (-1, 268435455, 'rsi')]
+total nonequivalence in range[(268435455, 536870911, 'rdi'), (536870911, 805306367, 'rsi')]
+total nonequivalence in range[(268435455, 536870911, 'rdi'), (805306367, 1073741823, 'rsi')]
+total equivalence in range [(536870911, 1073741823, 'rdi'), (-1, 536870911, 'rsi')]
+total nonequivalence in range[(536870911, 805306367, 'rdi'), (805306367, 1073741823, 'rsi')]
+total equivalence in range [(805306367, 1073741823, 'rdi'), (536870911, 805306367, 'rsi')]
+total nonequivalence in range[(268435455, 536870911, 'rdi'), (1073741823, 1342177279, 'rsi')]
+total nonequivalence in range[(268435455, 536870911, 'rdi'), (1342177279, 1610612735, 'rsi')]
+total nonequivalence in range[(268435455, 536870911, 'rdi'), (1610612735, 1879048191, 'rsi')]
+total nonequivalence in range[(268435455, 536870911, 'rdi'), (1879048191, 2147483647, 'rsi')]
+total nonequivalence in range[(536870911, 1073741823, 'rdi'), (1073741823, 1610612735, 'rsi')]
+total nonequivalence in range[(536870911, 1073741823, 'rdi'), (1610612735, 2147483647, 'rsi')]
+total equivalence in range [(1073741823, 2147483647, 'rdi'), (-1, 1073741823, 'rsi')]
+total nonequivalence in range[(1073741823, 1342177279, 'rdi'), (1342177279, 1610612735, 'rsi')]
+total equivalence in range [(1342177279, 1610612735, 'rdi'), (1073741823, 1342177279, 'rsi')]
+total nonequivalence in range[(1073741823, 1610612735, 'rdi'), (1610612735, 2147483647, 'rsi')]
+total equivalence in range [(1610612735, 2147483647, 'rdi'), (1073741823, 1610612735, 'rsi')]
+total nonequivalence in range[(1610612735, 1879048191, 'rdi'), (1879048191, 2147483647, 'rsi')]
+total equivalence in range [(1879048191, 2147483647, 'rdi'), (1610612735, 1879048191, 'rsi')]
+----------EQ-----------
+---------NEQ-----------
+[[(-1, 268435455, 'rdi'), (-1, 268435455, 'rsi')], [(-1, 268435455, 'rdi'), (268435455, 536870911, 'rsi')], [(268435455, 536870911, 'rdi'), (268435455, 536870911, 'rsi')], [(-1, 268435455, 'rdi'), (536870911, 805306367, 'rsi')], [(-1, 268435455, 'rdi'), (805306367, 1073741823, 'rsi')], [(268435455, 536870911, 'rdi'), (536870911, 805306367, 'rsi')], [(268435455, 536870911, 'rdi'), (805306367, 1073741823, 'rsi')], [(536870911, 805306367, 'rdi'), (536870911, 805306367, 'rsi')], [(536870911, 805306367, 'rdi'), (805306367, 1073741823, 'rsi')], [(805306367, 1073741823, 'rdi'), (805306367, 1073741823, 'rsi')], [(-1, 268435455, 'rdi'), (1073741823, 1342177279, 'rsi')], [(-1, 268435455, 'rdi'), (1342177279, 1610612735, 'rsi')], [(268435455, 536870911, 'rdi'), (1073741823, 1342177279, 'rsi')], [(268435455, 536870911, 'rdi'), (1342177279, 1610612735, 'rsi')], [(-1, 268435455, 'rdi'), (1610612735, 1879048191, 'rsi')], [(-1, 268435455, 'rdi'), (1879048191, 2147483647, 'rsi')], [(268435455, 536870911, 'rdi'), (1610612735, 1879048191, 'rsi')], [(268435455, 536870911, 'rdi'), (1879048191, 2147483647, 'rsi')], [(536870911, 1073741823, 'rdi'), (1073741823, 1610612735, 'rsi')], [(536870911, 1073741823, 'rdi'), (1610612735, 2147483647, 'rsi')], [(1073741823, 1342177279, 'rdi'), (1073741823, 1342177279, 'rsi')], [(1073741823, 1342177279, 'rdi'), (1342177279, 1610612735, 'rsi')], [(1342177279, 1610612735, 'rdi'), (1342177279, 1610612735, 'rsi')], [(1073741823, 1610612735, 'rdi'), (1610612735, 2147483647, 'rsi')], [(1610612735, 1879048191, 'rdi'), (1610612735, 1879048191, 'rsi')], [(1610612735, 1879048191, 'rdi'), (1879048191, 2147483647, 'rsi')], [(1879048191, 2147483647, 'rdi'), (1879048191, 2147483647, 'rsi')]]
+----------------------------------
+total equivalence lower bound 15852670679754211329 total 18446744073709551616
+Percentage 85.93749995343387%
+total nonequivalence upper bound 2594073385365405696 total 18446744073709551616
+Percentage 14.0625%
+sum of totalEq and totalNeq 18446744065119617025
+total time 0.6276648044586182 s
+total time 0.010461080074310302 m

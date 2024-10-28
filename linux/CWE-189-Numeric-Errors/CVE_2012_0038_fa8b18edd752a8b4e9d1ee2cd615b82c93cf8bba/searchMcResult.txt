@@ -1,0 +1,9 @@
+Resultxfs_acl_from_disk_SnippetEQ.smt2.cnf 30.6877 31.1315 164 0.9703
+Result: Lower Bound = 30.6877
+Result: Upper Bound = 31.1315
+Result: Sound Lower Bound = 30.7330 with 60%
+Result: Sound Upper Bound = 31.2252 with 60%
+Result: Filename = Resultxfs_acl_from_disk_SnippetEQ.smt2.cnf
+Result: #ExhaustUptoC Query = 11
+Result: #Sat Query = 164
+Result: Running Time = 0.9703

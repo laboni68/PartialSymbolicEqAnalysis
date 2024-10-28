@@ -1,0 +1,6 @@
+Not equivalent :(
+==========================
+[rdi = 16080909852535123645, R = 16080909852535126173]{'rdi', 'R'}False
+==========================
+Non equivalent for whole domain
+Total time : 2.41046142578125

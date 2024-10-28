@@ -1,0 +1,9 @@
+decode_frame_SnippetExist32.smt2.cnf 190.8580 191.3580 49 11.9389
+Result: Lower Bound = 190.8580
+Result: Upper Bound = 191.3580
+Result: Sound Lower Bound = 0.0000 with 60%
+Result: Sound Upper Bound = 192.0000 with 60%
+Result: Filename = decode_frame_SnippetExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 9
+Result: #Sat Query = 49
+Result: Running Time = 11.9389

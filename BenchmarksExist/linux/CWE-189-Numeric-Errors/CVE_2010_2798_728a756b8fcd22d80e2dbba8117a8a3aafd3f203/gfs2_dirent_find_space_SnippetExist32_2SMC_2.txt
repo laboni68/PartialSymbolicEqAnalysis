@@ -1,0 +1,9 @@
+gfs2_dirent_find_space_SnippetExist32_2.smt2.cnf 63.3780 63.7860 65 7.8899
+Result: Lower Bound = 63.3780
+Result: Upper Bound = 63.7860
+Result: Sound Lower Bound = 63.5881 with 60%
+Result: Sound Upper Bound = 64.3200 with 60%
+Result: Filename = gfs2_dirent_find_space_SnippetExist32_2.smt2.cnf
+Result: #ExhaustUptoC Query = 7
+Result: #Sat Query = 65
+Result: Running Time = 7.8899

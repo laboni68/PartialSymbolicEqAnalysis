@@ -1,0 +1,23 @@
+; benchmark generated from python API
+(set-info :status unknown)
+(declare-fun rdi () (_ BitVec 32))
+(declare-fun rsi () (_ BitVec 32))
+(assert
+ (let ((?x9 ((_ extract 31 0) rsi)))
+ (let (($x106 (= ?x9 (_ bv0 32))))
+ (let (($x107 (not $x106)))
+ (let ((?x24 ((_ extract 0 0) rdi)))
+ (let (($x103 (= ?x24 (_ bv0 1))))
+ (let (($x104 (not $x103)))
+ (let ((?x97 ((_ extract 31 0) (bvurem_i (concat (_ bv0 32) ((_ extract 31 0) rdi)) (_ bv3 64)))))
+ (let (($x100 (= ?x97 (_ bv0 32))))
+ (let (($x101 (not $x100)))
+ (let ((?x91 ((_ extract 31 0) (bvurem_i (concat (_ bv0 32) ((_ extract 31 0) rdi)) (_ bv5 64)))))
+ (let (($x94 (= ?x91 (_ bv0 32))))
+ (let (($x95 (not $x94)))
+ (let (($x89 (= ((_ extract 31 0) (bvurem_i (concat (_ bv0 32) ((_ extract 31 0) rdi)) (_ bv7 64))) (_ bv0 32))))
+ (let (($x22660 (or $x106 (and $x89 $x95 $x101 $x104 $x107 (not (= ((_ extract 31 0) rdi) (_ bv7 32)))) (and $x94 $x101 $x104 $x107 (not (= ((_ extract 31 0) rdi) (_ bv5 32)))) (and $x100 $x104 $x107 (not (= ((_ extract 31 0) rdi) (_ bv3 32)))) (and $x103 $x107 (not (= ((_ extract 31 0) rdi) (_ bv2 32)))))))
+ (let (($x22629 (or $x106 (and $x89 $x95 $x101 $x104 $x107) (and $x94 $x101 $x104 $x107) (and $x100 $x104 $x107) (and $x103 $x107))))
+ (and $x22629 $x22660)))))))))))))))))
+(check-sat)
+

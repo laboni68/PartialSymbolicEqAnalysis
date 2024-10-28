@@ -1,0 +1,1 @@
+abc -i ../../Vulnerabilities/extractedPatch/patches/patchByProject/qemu/CWE-189-Numeric-Errors/CVE_2015_8504_4c65fed8bdf96780735dbdb92a8bd0d6b6526cc3/ResultcveSnippetEQ_Int.smt2  --count-tuple -bi 31 --count-variable rdi -v 0

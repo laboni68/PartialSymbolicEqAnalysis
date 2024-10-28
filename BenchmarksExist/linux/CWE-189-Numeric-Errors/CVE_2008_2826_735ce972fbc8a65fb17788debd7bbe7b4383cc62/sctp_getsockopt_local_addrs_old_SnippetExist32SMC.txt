@@ -1,0 +1,9 @@
+sctp_getsockopt_local_addrs_old_SnippetExist32.smt2.cnf 30.7130 31.2068 89 0.4954
+Result: Lower Bound = 30.7130
+Result: Upper Bound = 31.2068
+Result: Sound Lower Bound = 30.6871 with 60%
+Result: Sound Upper Bound = 31.2570 with 60%
+Result: Filename = sctp_getsockopt_local_addrs_old_SnippetExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 8
+Result: #Sat Query = 89
+Result: Running Time = 0.4954

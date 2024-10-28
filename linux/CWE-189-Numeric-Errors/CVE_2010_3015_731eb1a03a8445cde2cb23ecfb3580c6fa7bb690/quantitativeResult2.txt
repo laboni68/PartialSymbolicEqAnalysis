@@ -1,0 +1,74 @@
+Satisfiability of solver : sat
+Variables : ['rdi', 'rsi', 'R']
+Number of variables : 2
+Calculate for 32 bits
+=======================ALGO : Divide And Search==================
+variable is : rdi
+++++++++++++++++++++++++++++++++++++++++
+[-50, -50]
+++++++++++++++++++++++++++++++++++++++++
+Before rdi is 4294967294 After 4294967295
+Total equivalence for variable rdi is 4294967295
+Total nonequivalence for variable rdi is 1
+Total range is 4294967296
+Percentage of variable rdi 99.99999997671694%
+variable is : rsi
+++++++++++++++++++++++++++++++++++++++++
+[-50, -50]
+[-49, -42]
+[-41, -34]
+[-33, -26]
+[-25, -18]
+[-17, -10]
+[-9, -2]
+[-1, -1]
+++++++++++++++++++++++++++++++++++++++++
+Before rsi is 4294967245 After 4294967246
+Total equivalence for variable rsi is 4294967246
+Total nonequivalence for variable rsi is 50
+Total range is 4294967296
+Percentage of variable rsi 99.99999883584678%
+==============================================
+==============================================
+===========================ALGO : Range Search==================
+=======================
+For values greater than 0
+=======================
+variable is : rdi
+val 0 div 1 max_value 2147483647
+variable is : rsi
+val 0 div 1 max_value 2147483647
+=======================
+For values less than 0
+=======================
+variable is : rdi
+unsat
+val 26 div 67108864 min_value -49
+variable is : rsi
+sat
+val 31 div 2147483648 min_value 0 : 0 is not included
+=======================
+Check for value 0
+=======================
+variable is : rdi
+Equivalent for value 0
+variable is : rsi
+Equivalent for value 0
+==============================================
+==============================================
+Total domain is 18446744073709551616
+variable rdi
+total equivalent domain is 4294967295
+total nonequivalent domain is 1
+variable rsi
+total equivalent domain is 4294967246
+total nonequivalent domain is 50
+===================Percentage of equivalence domain===================
+For variable rdi
+For variable rsi
+Final total equivalent tuples are 18446744073709551566
+Final percentage of tuples 100.0%
+Final upper bounded nonequivalent tuples are 50
+Final percentage of tuples 2.710505431213761e-16%
+total time 5.0711870193481445 s
+total time 0.08451978365580241 m

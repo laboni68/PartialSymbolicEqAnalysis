@@ -1,0 +1,2 @@
+[[2*rsi == 2*rdi]]
+<class 'z3.z3.BoolRef'>

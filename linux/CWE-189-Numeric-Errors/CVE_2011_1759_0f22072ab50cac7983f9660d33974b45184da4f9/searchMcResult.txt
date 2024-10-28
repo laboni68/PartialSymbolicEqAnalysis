@@ -1,0 +1,6 @@
+Resultsys_oabi_semtimedop_SnippetEQ.smt2.cnf 5.0444 5.0444 87 0.0850
+Result: Exact # of solutions = 33
+Result: Filename = Resultsys_oabi_semtimedop_SnippetEQ.smt2.cnf
+Result: #ExhaustUptoC Query = 8
+Result: #Sat Query = 87
+Result: Running Time = 0.0851

@@ -1,0 +1,68 @@
+Satisfiability of solver : sat
+Variables : ['rdi', 'R']
+Number of variables : 1
+Calculate for 32 bits
+=======================ALGO : Divide And Search==================
+variable is : rdi
+Total nonequivalence for 16777215 to 33554430
+Total nonequivalence for 33554431 to 67108862
+Total nonequivalence for 67108863 to 134217726
+Total nonequivalence for 134217727 to 268435454
+Total nonequivalence for 268435455 to 536870910
+Total nonequivalence for 536870911 to 1073741822
+Total nonequivalence for 1073741823 to 2147483646
+++++++++++++++++++++++++++++++++++++++++
+[-2147483648, -1073741826]
+[-1073741825, -536870914]
+[-536870913, -268435458]
+[-268435457, -134217730]
+[-134217729, -67108866]
+[-67108865, -33554434]
+[-33554433, -16777218]
+[-16777217, -2]
+[-1, 16777214]
+[16777215, 33554430]
+[33554431, 67108862]
+[67108863, 134217726]
+[134217727, 268435454]
+[268435455, 536870910]
+[536870911, 1073741822]
+[1073741823, 2147483646]
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable rdi is 0
+Total nonequivalence for variable rdi is 4294967295
+Total range is 4294967296
+Percentage of variable rdi 0.0%
+==============================================
+==============================================
+===========================ALGO : Range Search==================
+=======================
+For values greater than 0
+=======================
+variable is : rdi
+val 15 div 32768 max_value 65536
+=======================
+For values less than 0
+=======================
+variable is : rdi
+sat
+val 31 div 2147483648 min_value 0 : 0 is not included
+=======================
+Check for value 0
+=======================
+variable is : rdi
+Equivalent for value 0
+==============================================
+==============================================
+Total domain is 4294967296
+variable rdi
+total equivalent domain is 65537
+total nonequivalent domain is 4294901759
+===================Percentage of equivalence domain===================
+For variable rdi
+Final total equivalent tuples are 65537
+Final percentage of tuples 0.0015259021893143654%
+Final upper bounded nonequivalent tuples are 4294901759
+Final percentage of tuples 99.99847409781069%
+total time 0.44821763038635254 s
+total time 0.0074702938397725425 m

@@ -1,0 +1,9 @@
+mov_write_audio_tagExist32_2.smt2.cnf 95.4250 95.6790 69 0.9273
+Result: Lower Bound = 95.4250
+Result: Upper Bound = 95.6790
+Result: Sound Lower Bound = 95.5114 with 60%
+Result: Sound Upper Bound = 96.3644 with 60%
+Result: Filename = mov_write_audio_tagExist32_2.smt2.cnf
+Result: #ExhaustUptoC Query = 8
+Result: #Sat Query = 69
+Result: Running Time = 0.9273

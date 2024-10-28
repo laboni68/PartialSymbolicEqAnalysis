@@ -1,0 +1,9 @@
+Resultdo_tcp_setsockopt_SnippetEQ.smt2.cnf 31.3989 31.8929 46 2.1816
+Result: Lower Bound = 31.3989
+Result: Upper Bound = 31.8929
+Result: Sound Lower Bound = 0.0 with 60%
+Result: Sound Upper Bound = 32.3672 with 60%
+Result: Filename = Resultdo_tcp_setsockopt_SnippetEQ.smt2.cnf
+Result: #ExhaustUptoC Query = 6
+Result: #Sat Query = 46
+Result: Running Time = 2.7084

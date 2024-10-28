@@ -1,0 +1,9 @@
+Resultbcm_tx_setup_SnippetEQ.smt2.cnf 7.7148 8.1098 84 0.0680
+Result: Lower Bound = 7.7148
+Result: Upper Bound = 8.1098
+Result: Sound Lower Bound = 7.7278 with 60%
+Result: Sound Upper Bound = 8.3039 with 60%
+Result: Filename = Resultbcm_tx_setup_SnippetEQ.smt2.cnf
+Result: #ExhaustUptoC Query = 8
+Result: #Sat Query = 84
+Result: Running Time = 0.0680

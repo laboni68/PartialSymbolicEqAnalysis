@@ -1,0 +1,9 @@
+ioc_general_SnippetExist32.smt2.cnf 61.3251 61.4073 90 8.1099
+Result: Lower Bound = 61.3251
+Result: Upper Bound = 61.4073
+Result: Sound Lower Bound = 61.1421 with 60%
+Result: Sound Upper Bound = 61.9233 with 60%
+Result: Filename = ioc_general_SnippetExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 15
+Result: #Sat Query = 90
+Result: Running Time = 8.1099

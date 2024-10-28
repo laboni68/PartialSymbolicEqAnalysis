@@ -1,0 +1,20 @@
+; benchmark generated from python API
+(set-info :status unknown)
+(declare-fun rdi () (_ BitVec 32))
+(declare-fun rsi () (_ BitVec 32))
+(assert
+ (let ((?x9 ((_ extract 31 0) rdi)))
+ (let ((?x64 (bvadd (_ bv49 32) ?x9)))
+ (let ((?x11 ((_ extract 31 0) rsi)))
+ (let (($x65 (bvule ?x11 ?x64)))
+ (let (($x55 (bvule ?x9 ?x11)))
+ (let ((?x22 (bvadd (_ bv50 32) ?x9)))
+ (let (($x53 (bvule ?x22 ?x11)))
+ (let (($x54 (not $x53)))
+ (let (($x61 (not $x55)))
+ (let (($x1236 (or $x61 (and $x65 $x55 (= ?x9 (bvadd (_ bv4294967246 32) ?x11))) (and (not $x65) $x55))))
+ (let (($x1233 (or $x61 (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967246 32) ?x11))) (and $x53 $x55))))
+ (let (($x1859 (or (and $x1233 $x1236) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967250 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967249 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967248 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967264 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967265 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967266 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967267 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967274 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967268 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967269 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967251 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967254 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967255 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967256 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967257 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967295 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967294 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967263 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967262 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967259 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967283 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967291 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967287 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967286 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967278 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967279 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967247 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967270 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967271 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967272 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967273 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967292 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967293 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967290 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967288 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967289 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967275 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967277 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967276 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 ?x11) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967258 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967282 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967280 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967281 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967284 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967285 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967252 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967253 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967260 32) ?x11)) $x65) (and $x54 $x55 (= ?x9 (bvadd (_ bv4294967261 32) ?x11)) $x65))))
+ (and $x1859))))))))))))))
+(check-sat)
+

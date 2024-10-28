@@ -1,0 +1,8 @@
+Not equivalent :(
+==========================
+[rdi = 195, rsi = 195, R = 0]{'rsi', 'rdi', 'R'}True
+==========================
+Not nonequivalent for all the domain space
+At least one equivalent solution
+[rsi = 255, rdi = 0, R = 4294965256]
+Total time : 0.2536904811859131

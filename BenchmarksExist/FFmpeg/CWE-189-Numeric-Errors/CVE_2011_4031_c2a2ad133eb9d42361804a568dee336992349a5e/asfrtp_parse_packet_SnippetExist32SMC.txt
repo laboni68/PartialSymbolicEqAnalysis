@@ -1,0 +1,9 @@
+asfrtp_parse_packet_SnippetExist32.smt2.cnf 191.0490 191.3580 72 7.5513
+Result: Lower Bound = 191.0490
+Result: Upper Bound = 191.3580
+Result: Sound Lower Bound = 191.1319 with 60%
+Result: Sound Upper Bound = 191.7262 with 60%
+Result: Filename = asfrtp_parse_packet_SnippetExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 10
+Result: #Sat Query = 72
+Result: Running Time = 7.5513

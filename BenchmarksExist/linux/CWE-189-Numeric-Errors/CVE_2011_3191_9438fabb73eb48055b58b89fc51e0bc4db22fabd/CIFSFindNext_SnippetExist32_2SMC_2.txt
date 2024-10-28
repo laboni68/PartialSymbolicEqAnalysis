@@ -1,0 +1,9 @@
+CIFSFindNext_SnippetExist32_2.smt2.cnf 30.6605 31.1038 173 0.8489
+Result: Lower Bound = 30.6605
+Result: Upper Bound = 31.1038
+Result: Sound Lower Bound = 30.6773 with 60%
+Result: Sound Upper Bound = 31.2636 with 60%
+Result: Filename = CIFSFindNext_SnippetExist32_2.smt2.cnf
+Result: #ExhaustUptoC Query = 12
+Result: #Sat Query = 173
+Result: Running Time = 0.8489

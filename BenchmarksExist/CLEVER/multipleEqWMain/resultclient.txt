@@ -1,0 +1,201 @@
+[[Or(And(30*Extract(31, 0, rdi) ==
+         Concat(Extract(29,
+                        0,
+                        Concat(Extract(63,
+                                       63,
+                                       1717986919*
+                                       Concat(Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        30*
+                                        Extract(31, 0, rdi))),
+                               Extract(63,
+                                       63,
+                                       1717986919*
+                                       Concat(Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+                                        31,
+                                        30*
+                                        Extract(31, 0, rdi)),
+                                        Extract(31,
+...

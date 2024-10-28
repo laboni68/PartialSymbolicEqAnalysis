@@ -1,0 +1,65 @@
+Satisfiability of solver : sat
+Variables : ['rsi', 'rdi', 'rdx', 'R']
+Number of variables : 3
+Calculate for unsigned 32
+=======================ALGO : Divide And Search==================
+variable is : rdi
+Total nonequivalence for 16777215 to 33554430
+Total nonequivalence for 33554431 to 67108862
+Total nonequivalence for 67108863 to 134217726
+Total nonequivalence for 134217727 to 268435454
+Total nonequivalence for 268435455 to 536870910
+Total nonequivalence for 536870911 to 1073741822
+Total nonequivalence for 1073741823 to 2147483646
+Total nonequivalence for 2147483647 to 4294967294
+++++++++++++++++++++++++++++++++++++++++
+[0, 16777214]
+[16777215, 33554430]
+[33554431, 67108862]
+[67108863, 134217726]
+[134217727, 268435454]
+[268435455, 536870910]
+[536870911, 1073741822]
+[1073741823, 2147483646]
+[2147483647, 4294967294]
+++++++++++++++++++++++++++++++++++++++++
+Before rdi is 0 After 0
+Total equivalence for variable rdi is 0
+Total nonequivalence for variable rdi is 4294967296
+Total range is 4294967296
+Percentage of variable rdi 0.0%
+==============================================
+==============================================
+===========================ALGO : Range Search==================
+=======================
+For values greater than 0
+=======================
+variable is : rdi
+val 31 div 2147483648 max_value 0 : 0 is not included
+=======================
+For values less than 0
+=======================
+variable is : rsi
+variable is : rdi
+unsat
+val 0 div 1 min_value 0.0
+variable is : rdx
+=======================
+Check for value 0
+=======================
+variable is : rdi
+Equivalent for value 0
+==============================================
+==============================================
+Total domain is 79228162514264337593543950336
+variable rdi
+total equivalent domain is 1.0
+total nonequivalent domain is 4294967295.0
+===================Percentage of equivalence domain===================
+For variable rdi
+Final total equivalent tuples are 0.0
+Final percentage of tuples 0.0%
+Final upper bounded nonequivalent tuples are 7.922816251426434e+28
+Final percentage of tuples 100.0%
+total time 0.21533656120300293 s
+total time 0.0035889426867167155 m

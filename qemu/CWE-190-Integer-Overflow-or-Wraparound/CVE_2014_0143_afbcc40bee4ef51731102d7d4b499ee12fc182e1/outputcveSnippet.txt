@@ -1,0 +1,4 @@
+(goals
+(goal
+  (= ((_ extract 31 29) rdi) #b000))
+)

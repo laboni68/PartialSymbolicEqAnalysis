@@ -1,0 +1,9 @@
+Resultrose_sendmsg_SnippetEQ.smt2.cnf 16.1341 16.3099 141 0.2023
+Result: Lower Bound = 16.1341
+Result: Upper Bound = 16.3099
+Result: Sound Lower Bound = 15.6418 with 60%
+Result: Sound Upper Bound = 16.2867 with 60%
+Result: Filename = Resultrose_sendmsg_SnippetEQ.smt2.cnf
+Result: #ExhaustUptoC Query = 14
+Result: #Sat Query = 141
+Result: Running Time = 0.2023

@@ -1,0 +1,203 @@
+(goals
+(goal
+  (let ((a!1 ((_ extract 31 31)
+               (bvadd ((_ extract 31 0) rdi)
+                      (concat #b0000000000000000000000000000000
+                              ((_ extract 31 31) rdi)))))
+        (a!8 (concat ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     ((_ extract 31 31)
+                       (bvadd #x00000001 ((_ extract 31 0) rdi)))
+                     (bvadd #x00000001 ((_ extract 31 0) rdi))))
+        (a!14 (and (not (= ((_ extract 0 0) rdi) #b0))
+                   (= ((_ extract 0 0) rdi) #b1))))
+  (let ((a!2 (concat a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     a!1
+                     (bvadd ((_ extract 31 0) rdi)
+                            (concat #b0000000000000000000000000000000
+                                    ((_ extract 31 31) rdi)))))
+        (a!9 (concat #b0000000000000000000000000000000
+                     (bvadd #b1
+                            ((_ extract 0 0) rdi)
+                            ((_ extract 31 31) (bvashr a!8 #x000000000000001f)))))
+        (a!10 (bvadd #x00000003
+                     (concat #b0000000000000000000000000000000
+                             ((_ extract 31 31) (bvashr a!8 #x000000000000001f)))))
+        (a!13 (bvadd #x00000001
+                     (concat #b0000000000000000000000000000000
+                             ((_ extract 31 31) (bvashr a!8 #x000000000000001f))))))
+  (let ((a!3 (bvadd ((_ extract 31 0) (bvashr a!2 #x0000000000000001))
+                    (concat #b0000000000000000000000000000000
+                            ((_ extract 31 31) (bvashr a!2 #x0000000000000001)))))
+        (a!12 (not (= ((_ extract 0 0) (bvashr a!2 #x0000000000000001)) #b0))))
+  (let ((a!4 (bvashr (concat ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             ((_ extract 31 31) a!3)
+                             a!3)
+                     #x0000000000000001)))
+  (let ((a!5 ((_ extract 31 31)
+               (bvadd ((_ extract 31 0) a!4)
+                      (concat #b0000000000000000000000000000000
+                              ((_ extract 31 31) a!4))))))
+  (let ((a!6 (concat a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     a!5
+                     (bvadd ((_ extract 31 0) a!4)
+                            (concat #b0000000000000000000000000000000
+                                    ((_ extract 31 31) a!4))))))
+  (let ((a!7 (not (= ((_ extract 0 0) (bvashr a!6 #x0000000000000001)) #b0))))
+  (let ((a!11 (and a!7
+                   (= ((_ extract 0 0) a!4) #b0)
+                   (= ((_ extract 0 0) (bvashr a!2 #x0000000000000001)) #b0)
+                   (= ((_ extract 0 0) rdi) #b0)
+                   (= a!9 a!10))))
+    (or a!11 (and a!12 (= ((_ extract 0 0) rdi) #b0) (= a!9 a!13)) a!14))))))))))
+)

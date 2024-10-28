@@ -1,0 +1,63 @@
+Satisfiability of solver : sat
+Variables : ['rdx', 'rsi', 'R']
+Number of variables : 2
+Calculate for 32 bits
+=======================ALGO : Divide And Search==================
+variable is : rdx
+++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable rdx is 0
+Total nonequivalence for variable rdx is 4294967295
+Total range is 4294967296
+Percentage of variable rdx 0.0%
+variable is : rsi
+++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable rsi is 4227858421
+Total nonequivalence for variable rsi is 67108875
+Total range is 4294967296
+Percentage of variable rsi 98.43749974388629%
+==============================================
+==============================================
+===========================ALGO : Range Search==================
+=======================
+For values greater than 0
+=======================
+variable is : rdx
+val 31 div 2147483648 max_value 0 : 0 is not included
+variable is : rsi
+val 31 div 2147483648 max_value 0 : 0 is not included
+=======================
+For values less than 0
+=======================
+variable is : rdx
+sat
+val 31 div 2147483648 min_value 0 : 0 is not included
+variable is : rsi
+unsat
+val 1 div 2 min_value -2147483647
+=======================
+Check for value 0
+=======================
+variable is : rdx
+Not equivalent for 0
+variable is : rsi
+Equivalent for value 0
+==============================================
+==============================================
+Total domain is 18446744073709551616
+variable rdx
+total equivalent domain is 0
+total nonequivalent domain is 4294967296
+variable rsi
+total equivalent domain is 4227858421
+total nonequivalent domain is 67108875
+===================Percentage of equivalence domain===================
+For variable rdx
+For variable rsi
+Final total equivalent tuples are 18158513650313199616
+Final percentage of tuples 98.43749974388629%
+Final upper bounded nonequivalent tuples are 288230423396352000
+Final percentage of tuples 1.562500256113708%
+total time 30.913782358169556 s
+total time 0.5152297059694926 m

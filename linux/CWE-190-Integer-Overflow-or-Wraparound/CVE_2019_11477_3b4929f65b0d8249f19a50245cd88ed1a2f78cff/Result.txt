@@ -1,0 +1,18 @@
+Not equivalent :(
+==========================
+[r8 = 65538,
+ rdi = 4294967294,
+ rdx = 4294508555,
+ R = 4294967294,
+ rcx = 524280,
+ rsi = 0]{'rdi', 'r8', 'rcx', 'R', 'rdx', 'rsi'}True
+==========================
+Not nonequivalent for all the domain space
+At least one equivalent solution
+[r8 = 65535,
+ rdi = 1,
+ R = 1,
+ rdx = 4294508552,
+ rcx = 524280,
+ rsi = 0]
+Total time : 0.2974245548248291

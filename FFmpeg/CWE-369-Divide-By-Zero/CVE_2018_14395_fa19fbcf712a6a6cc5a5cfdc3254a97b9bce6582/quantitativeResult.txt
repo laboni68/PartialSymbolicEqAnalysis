@@ -1,0 +1,148 @@
+Satisfiability of solver : sat
+Variables : ['rsi', 'rdi', 'rdx', 'R']
+Number of variables : 3
+Calculate for 32 bits
+=======================ALGO : Divide And Search==================
+variable is : rsi
+++++++++++++++++++++++++++++++++++++++++
+[-1, 1022]
+[1023, 2046]
+[2047, 3070]
+[3071, 4094]
+[4095, 5118]
+[5119, 6142]
+[6143, 7166]
+[7167, 8190]
+[8191, 9214]
+[9215, 10238]
+[10239, 11262]
+[11263, 12286]
+[12287, 13310]
+[13311, 14334]
+[14335, 15358]
+[15359, 16382]
+[16383, 17406]
+[17407, 18430]
+[18431, 19454]
+[19455, 20478]
+[20479, 21502]
+[21503, 22526]
+[22527, 23550]
+[23551, 24574]
+[24575, 25598]
+[25599, 26622]
+[26623, 27646]
+[27647, 28670]
+[28671, 29694]
+[29695, 30718]
+[30719, 31742]
+[31743, 32766]
+[32767, 33790]
+[33791, 34814]
+[34815, 35838]
+[35839, 36862]
+[36863, 37886]
+[37887, 38910]
+[38911, 39934]
+[39935, 40958]
+[40959, 41982]
+[41983, 43006]
+[43007, 44030]
+[44031, 45054]
+[45055, 46078]
+[46079, 47102]
+[47103, 48126]
+[48127, 49150]
+[49151, 50174]
+[50175, 51198]
+[51199, 52222]
+[52223, 53246]
+[53247, 54270]
+[54271, 55294]
+[55295, 56318]
+[56319, 57342]
+[57343, 58366]
+[58367, 59390]
+[59391, 60414]
+[60415, 61438]
+[61439, 62462]
+[62463, 63486]
+[63487, 64510]
+[64511, 65534]
+[65535, 65535]
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable rsi is 4294901759
+Total nonequivalence for variable rsi is 65537
+Total range is 4294967296
+Percentage of variable rsi 99.99847409781069%
+variable is : rdi
+++++++++++++++++++++++++++++++++++++++++
+[2, 2]
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable rdi is 4294967295
+Total nonequivalence for variable rdi is 1
+Total range is 4294967296
+Percentage of variable rdi 99.99999997671694%
+variable is : rdx
+++++++++++++++++++++++++++++++++++++++++
+[0, 0]
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable rdx is 4294967295
+Total nonequivalence for variable rdx is 1
+Total range is 4294967296
+Percentage of variable rdx 99.99999997671694%
+==============================================
+==============================================
+===========================ALGO : Range Search==================
+=======================
+For values greater than 0
+=======================
+variable is : rsi
+val 31 div 2147483648 max_value 0 : 0 is not included
+variable is : rdi
+val 31 div 2147483648 max_value 0 : 0 is not included
+variable is : rdx
+val 0 div 1 max_value 2147483647
+=======================
+For values less than 0
+=======================
+variable is : rsi
+unsat
+val 0 div 1 min_value -2147483648.0
+variable is : rdi
+unsat
+val 0 div 1 min_value -2147483648.0
+variable is : rdx
+unsat
+val 0 div 1 min_value -2147483648.0
+=======================
+Check for value 0
+=======================
+variable is : rsi
+Not equivalent for 0
+variable is : rdi
+Equivalent for value 0
+variable is : rdx
+Not equivalent for 0
+==============================================
+==============================================
+Total domain is 79228162514264337593543950336
+variable rsi
+total equivalent domain is 4294901759
+total nonequivalent domain is 65537
+variable rdi
+total equivalent domain is 4294967295
+total nonequivalent domain is 1
+variable rdx
+total equivalent domain is 4294967295.0
+total nonequivalent domain is 1.0
+===================Percentage of equivalence domain===================
+For variable rsi
+For variable rdi
+For variable rdx
+Final total equivalent tuples are 7.922816251426434e+28
+Final percentage of tuples 100.0%
+Final upper bounded nonequivalent tuples are 0.0
+Final percentage of tuples 0.0%
+total time 2.4261724948883057 s
+total time 0.04043620824813843 m

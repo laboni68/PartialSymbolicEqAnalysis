@@ -1,0 +1,9 @@
+ff_j2k_dwt_init_SnippetExist32.smt2.cnf 63.1019 63.4044 135 1.1077
+Result: Lower Bound = 63.1019
+Result: Upper Bound = 63.4044
+Result: Sound Lower Bound = 62.7817 with 60%
+Result: Sound Upper Bound = 63.1895 with 60%
+Result: Filename = ff_j2k_dwt_init_SnippetExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 12
+Result: #Sat Query = 135
+Result: Running Time = 1.1077

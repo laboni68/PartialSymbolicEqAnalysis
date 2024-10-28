@@ -1,0 +1,5 @@
+(goals
+(goal
+  (= (bvmul #x00000002 ((_ extract 31 0) rsi))
+     (bvmul #x00000002 ((_ extract 31 0) rdi))))
+)

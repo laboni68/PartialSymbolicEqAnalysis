@@ -1,0 +1,7 @@
+(goals
+(goal
+  (let ((a!1 (not (bvsle #x0000000080000000
+                         (concat #x00000000 ((_ extract 31 0) rdi))))))
+    (or (bvsle #x0000000080000000 (concat #x00000000 ((_ extract 31 0) rdi)))
+        (and a!1 (= ((_ extract 31 0) rdi) #xffffffea)))))
+)

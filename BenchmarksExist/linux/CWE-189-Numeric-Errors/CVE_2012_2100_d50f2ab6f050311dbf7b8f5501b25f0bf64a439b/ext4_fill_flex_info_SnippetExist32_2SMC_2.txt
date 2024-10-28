@@ -1,0 +1,9 @@
+ext4_fill_flex_info_SnippetExist32_2.smt2.cnf 27.6529 28.0658 166 0.7188
+Result: Lower Bound = 27.6529
+Result: Upper Bound = 28.0658
+Result: Sound Lower Bound = 27.7761 with 60%
+Result: Sound Upper Bound = 28.1938 with 60%
+Result: Filename = ext4_fill_flex_info_SnippetExist32_2.smt2.cnf
+Result: #ExhaustUptoC Query = 13
+Result: #Sat Query = 166
+Result: Running Time = 0.7188

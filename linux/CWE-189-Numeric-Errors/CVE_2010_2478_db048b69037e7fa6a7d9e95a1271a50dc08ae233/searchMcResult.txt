@@ -1,0 +1,9 @@
+Resultethtool_get_rxnfc_SnippetEQ.smt2.cnf 20.7467 21.2087 102 0.1893
+Result: Lower Bound = 20.7467
+Result: Upper Bound = 21.2087
+Result: Sound Lower Bound = 20.7213 with 60%
+Result: Sound Upper Bound = 21.2487 with 60%
+Result: Filename = Resultethtool_get_rxnfc_SnippetEQ.smt2.cnf
+Result: #ExhaustUptoC Query = 9
+Result: #Sat Query = 102
+Result: Running Time = 0.3573

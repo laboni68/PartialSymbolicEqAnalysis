@@ -1,0 +1,7 @@
+[[Or(rdi <= 17,
+     And(Extract(31, 31, rdi) == 0,
+         rdi <= 21,
+         Not(rdi <= 17)),
+     And(Not(rdi <= 21), Not(rdi <= 17))),
+  Or(rdi <= 17, And(Not(rdi <= 21), Not(rdi <= 17)))]]
+<class 'z3.z3.BoolRef'>

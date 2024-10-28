@@ -1,0 +1,292 @@
+ResultcveSnippetNEQ.smt2
+ResultcveSnippetEQ.smt2
+Satisfiability of solver :  sat
+rdi
+R
+Calculate for 32 bits
+=======================ALGO : Divide And Search==================
+variable is :  rdi
+Not equivalent; go further case 3  0
+Not equivalent; go further case 3  1
+Not equivalent; go further case 3  2
+Not equivalent; go further case 3  3
+Not equivalent; go further case 3  4
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  4
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  3
+Not equivalent; go further case 3  4
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  4
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  2
+Not equivalent; go further case 3  3
+Not equivalent; go further case 3  4
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  4
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  3
+Not equivalent; go further case 3  4
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  4
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  1
+Not equivalent; go further case 3  2
+Not equivalent; go further case 3  3
+Not equivalent; go further case 3  4
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  4
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  3
+Not equivalent; go further case 3  4
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  4
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  2
+Not equivalent; go further case 3  3
+Not equivalent; go further case 3  4
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  4
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  3
+Not equivalent; go further case 3  4
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  4
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  5
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  6
+Not equivalent; go further case 3  7
+Not equivalent; go further case 3  7
+Total equivalence for variable  rdi  is  0
+Total range is  4294967296
+Percentage of variable  rdi 0.0 %
+===============================
+Total percentage of  1  variables is  0.0  %
+===============================
+===========END RESULT of ALGO : Divide And Search==================
+===========================ALGO : Range Search==================
+=======================
+For values greater than 0
+=======================
+variable is :  rdi
+val  12  div  4096 max_value  1048576
+========================
+Check for value 0
+========================
+variable is :  rdi
+Equivalent for value 0
+========================
+variable :  rdi
+Max  1048576
+Range diff  1048577
+Percentage of varable  rdi  is  0.024414085783064365 %
+========================
+Total domain :  4294967296
+Equivalence domain :  1048577
+Minimum percentage of equivalent domain  0.024414085783064365 %
+==============================================
+===========END RESULT of ALGO : Range Search==================

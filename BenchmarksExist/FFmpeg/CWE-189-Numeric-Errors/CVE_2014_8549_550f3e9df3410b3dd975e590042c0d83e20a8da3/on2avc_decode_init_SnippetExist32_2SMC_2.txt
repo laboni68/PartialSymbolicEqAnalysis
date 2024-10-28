@@ -1,0 +1,6 @@
+on2avc_decode_init_SnippetExist32_2.smt2.cnf 1.5850 1.5850 7 0.0152
+Result: Exact # of solutions = 3
+Result: Filename = on2avc_decode_init_SnippetExist32_2.smt2.cnf
+Result: #ExhaustUptoC Query = 4
+Result: #Sat Query = 7
+Result: Running Time = 0.0152

@@ -1,0 +1,33 @@
+/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/linux/CWE-189-Numeric-Errors/CVE_2010_3015_731eb1a03a8445cde2cb23ecfb3580c6fa7bb690/Resultext4_ext_get_blocks_SnippetNEQ.smt2/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/linux/CWE-189-Numeric-Errors/CVE_2010_3015_731eb1a03a8445cde2cb23ecfb3580c6fa7bb690/Resultext4_ext_get_blocks_SnippetEQ.smt2Satisfiability of solver : sat
+rdi
+rsi
+R
+Calculate for 32 bits
+Multi dimensional divide N search
+i = 0 is rdi
+[-2147483648, 2147483648, 'rdi']
+i = 1 is rsi
+[-2147483648, 2147483648, 'rsi']
+total equivalence in range [(-2147483648, -1073741824, 'rdi'), (-2147483648, -1073741824, 'rsi')]
+total equivalence in range [(-2147483648, -1073741824, 'rdi'), (-1073741824, 0, 'rsi')]
+total equivalence in range [(-1073741824, 0, 'rdi'), (-2147483648, -1073741824, 'rsi')]
+total equivalence in range [(-1073741824, -536870912, 'rdi'), (-1073741824, -536870912, 'rsi')]
+total equivalence in range [(-1073741824, -536870912, 'rdi'), (-536870912, 0, 'rsi')]
+total equivalence in range [(-536870912, 0, 'rdi'), (-1073741824, -536870912, 'rsi')]
+total equivalence in range [(-536870912, -268435456, 'rdi'), (-536870912, -268435456, 'rsi')]
+total equivalence in range [(-536870912, -268435456, 'rdi'), (-268435456, 0, 'rsi')]
+total equivalence in range [(-268435456, 0, 'rdi'), (-536870912, -268435456, 'rsi')]
+total equivalence in range [(-2147483648, 0, 'rdi'), (0, 2147483648, 'rsi')]
+total equivalence in range [(0, 2147483648, 'rdi'), (-2147483648, 0, 'rsi')]
+total equivalence in range [(0, 2147483648, 'rdi'), (0, 2147483648, 'rsi')]
+----------EQ-----------
+---------NEQ-----------
+[[(-268435456, 0, 'rdi'), (-268435456, 0, 'rsi')]]
+----------------------------------
+total equivalence lower bound 18374686479671623680 total 18446744073709551616
+Percentage 99.609375%
+total nonequivalence upper bound 72057594037927936 total 18446744073709551616
+Percentage 0.390625%
+sum of totalEq and totalNeq 18446744073709551616
+total time 0.36826014518737793 s
+total time 0.006137669086456299 m

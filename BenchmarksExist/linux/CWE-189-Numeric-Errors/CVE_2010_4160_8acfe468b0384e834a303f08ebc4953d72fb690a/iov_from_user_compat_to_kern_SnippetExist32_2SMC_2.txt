@@ -1,0 +1,6 @@
+iov_from_user_compat_to_kern_SnippetExist32_2.smt2.cnf 0.0000 0.0000 5 0.0144
+Result: Exact # of solutions = 1
+Result: Filename = iov_from_user_compat_to_kern_SnippetExist32_2.smt2.cnf
+Result: #ExhaustUptoC Query = 4
+Result: #Sat Query = 5
+Result: Running Time = 0.0144

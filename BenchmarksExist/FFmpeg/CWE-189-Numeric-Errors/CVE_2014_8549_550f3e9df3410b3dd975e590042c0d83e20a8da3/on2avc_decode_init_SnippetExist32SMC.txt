@@ -1,0 +1,9 @@
+on2avc_decode_init_SnippetExist32.smt2.cnf 33.4489 33.8575 147 0.7898
+Result: Lower Bound = 33.4489
+Result: Upper Bound = 33.8575
+Result: Sound Lower Bound = 33.3142 with 60%
+Result: Sound Upper Bound = 33.8128 with 60%
+Result: Filename = on2avc_decode_init_SnippetExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 27
+Result: #Sat Query = 147
+Result: Running Time = 0.7898

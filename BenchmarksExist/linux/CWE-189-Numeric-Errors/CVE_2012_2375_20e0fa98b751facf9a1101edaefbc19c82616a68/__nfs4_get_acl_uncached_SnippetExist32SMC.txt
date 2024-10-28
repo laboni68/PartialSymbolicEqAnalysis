@@ -1,0 +1,9 @@
+__nfs4_get_acl_uncached_SnippetExist32.smt2.cnf 31.7368 32.1337 158 0.8610
+Result: Lower Bound = 31.7368
+Result: Upper Bound = 32.1337
+Result: Sound Lower Bound = 31.8037 with 60%
+Result: Sound Upper Bound = 32.1728 with 60%
+Result: Filename = __nfs4_get_acl_uncached_SnippetExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 13
+Result: #Sat Query = 158
+Result: Running Time = 0.8610

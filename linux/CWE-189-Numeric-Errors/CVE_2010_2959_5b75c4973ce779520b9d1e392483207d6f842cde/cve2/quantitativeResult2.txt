@@ -1,0 +1,97 @@
+Satisfiability of solver : sat
+Variables : ['rsi', 'rdi', 'R']
+Number of variables : 2
+Calculate for 32 bits
+=======================ALGO : Divide And Search==================
+variable is : rsi
+++++++++++++++++++++++++++++++++++++++++
+[-2147483648, -1879048194]
+[-1879048193, -1610612738]
+[-1610612737, -1342177282]
+[-1342177281, -1073741826]
+[-1073741825, -805306370]
+[-805306369, -536870914]
+[-536870913, -268435458]
+[-268435457, -2]
+[-1, 268435454]
+[268435455, 536870910]
+[536870911, 805306366]
+[805306367, 1073741822]
+[1073741823, 1342177278]
+[1342177279, 1610612734]
+[1610612735, 1879048190]
+[1879048191, 2147483646]
+++++++++++++++++++++++++++++++++++++++++
+Before rsi is 0 After 1
+Total equivalence for variable rsi is 1
+Total nonequivalence for variable rsi is 4294967295
+Total range is 4294967296
+Percentage of variable rsi 2.3283064365386963e-08%
+variable is : rdi
+++++++++++++++++++++++++++++++++++++++++
+[-2147483648, -1879048194]
+[-1879048193, -1610612738]
+[-1610612737, -1342177282]
+[-1342177281, -1073741826]
+[-1073741825, -805306370]
+[-805306369, -536870914]
+[-536870913, -268435458]
+[-268435457, -2]
+[-1, 268435454]
+[268435455, 536870910]
+[536870911, 805306366]
+[805306367, 1073741822]
+[1073741823, 1342177278]
+[1342177279, 1610612734]
+[1610612735, 1879048190]
+[1879048191, 2147483646]
+++++++++++++++++++++++++++++++++++++++++
+Before rdi is 0 After 0
+Total equivalence for variable rdi is 0
+Total nonequivalence for variable rdi is 4294967296
+Total range is 4294967296
+Percentage of variable rdi 0.0%
+==============================================
+==============================================
+===========================ALGO : Range Search==================
+=======================
+For values greater than 0
+=======================
+variable is : rsi
+val 31 div 2147483648 max_value 0 : 0 is not included
+variable is : rdi
+val 23 div 8388608 max_value 257
+=======================
+For values less than 0
+=======================
+variable is : rsi
+unsat
+val 21 div 2097152 min_value -1024
+variable is : rdi
+sat
+val 31 div 2147483648 min_value 0 : 0 is not included
+=======================
+Check for value 0
+=======================
+variable is : rsi
+Not equivalent for 0
+variable is : rdi
+Equivalent for value 0
+==============================================
+==============================================
+Total domain is 18446744073709551616
+variable rsi
+total equivalent domain is 1024
+total nonequivalent domain is 4294966272
+variable rdi
+total equivalent domain is 258
+total nonequivalent domain is 4294967038
+===================Percentage of equivalence domain===================
+For variable rsi
+For variable rdi
+Final total equivalent tuples are 5506147809280
+Final percentage of tuples 2.9848887084238385e-05%
+Final upper bounded nonequivalent tuples are 18446738567561742336
+Final percentage of tuples 99.99997015111292%
+total time 0.831514835357666 s
+total time 0.013858580589294433 m

@@ -1,0 +1,9 @@
+gif_copy_img_rect_SnippetExist32_2.smt2.cnf 31.5831 32.0114 81 0.4185
+Result: Lower Bound = 31.5831
+Result: Upper Bound = 32.0114
+Result: Sound Lower Bound = 31.7434 with 60%
+Result: Sound Upper Bound = 32.2178 with 60%
+Result: Filename = gif_copy_img_rect_SnippetExist32_2.smt2.cnf
+Result: #ExhaustUptoC Query = 9
+Result: #Sat Query = 81
+Result: Running Time = 0.4185

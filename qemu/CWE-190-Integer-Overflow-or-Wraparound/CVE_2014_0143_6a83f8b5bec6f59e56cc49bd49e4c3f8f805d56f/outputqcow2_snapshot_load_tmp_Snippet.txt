@@ -1,0 +1,4 @@
+(goals
+(goal
+  (bvsle ((_ extract 31 0) rdi) #x02000000))
+)

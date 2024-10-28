@@ -1,0 +1,9 @@
+i915_gem_execbuffer2_SnippetExist32.smt2.cnf 58.1122 58.4425 63 0.5178
+Result: Lower Bound = 58.1122
+Result: Upper Bound = 58.4425
+Result: Sound Lower Bound = 57.6176 with 60%
+Result: Sound Upper Bound = 58.3020 with 60%
+Result: Filename = i915_gem_execbuffer2_SnippetExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 12
+Result: #Sat Query = 63
+Result: Running Time = 0.5178

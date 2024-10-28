@@ -1,0 +1,52 @@
+Satisfiability of solver : sat
+Variables : ['rdi', 'R']
+Number of variables : 1
+Calculate for 32 bits
+=======================ALGO : Divide And Search==================
+variable is : rdi
+Total nonequivalence for 79691775 to 83886078
+Total nonequivalence for 83886079 to 100663294
+Total nonequivalence for 100663295 to 134217726
+Total nonequivalence for 134217727 to 268435454
+Total nonequivalence for 268435455 to 536870910
+Total nonequivalence for 536870911 to 1073741822
+Total nonequivalence for 1073741823 to 2147483646
+++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable rdi is 2222981119
+Total nonequivalence for variable rdi is 2071986176
+Total range is 4294967296
+Percentage of variable rdi 51.757812476716936%
+==============================================
+==============================================
+===========================ALGO : Range Search==================
+=======================
+For values greater than 0
+=======================
+variable is : rdi
+val 5 div 32 max_value 76695843
+=======================
+For values less than 0
+=======================
+variable is : rdi
+unsat
+val 0 div 1 min_value -2147483648.0
+=======================
+Check for value 0
+=======================
+variable is : rdi
+Equivalent for value 0
+==============================================
+==============================================
+Total domain is 4294967296
+variable rdi
+total equivalent domain is 2224179492.0
+total nonequivalent domain is 2070787804.0
+===================Percentage of equivalence domain===================
+For variable rdi
+Final total equivalent tuples are 2224179492.0
+Final percentage of tuples 51.78571427240968%
+Final upper bounded nonequivalent tuples are 2070787804.0
+Final percentage of tuples 48.21428572759032%
+total time 0.3431234359741211 s
+total time 0.005718723932902018 m

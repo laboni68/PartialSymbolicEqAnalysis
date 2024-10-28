@@ -1,0 +1,9 @@
+kvm_dev_ioctl_get_supported_cpuid_SnippetExist32.smt2.cnf 37.4174 37.9053 57 18.3643
+Result: Lower Bound = 37.4174
+Result: Upper Bound = 37.9053
+Result: Sound Lower Bound = 37.1402 with 60%
+Result: Sound Upper Bound = 37.9245 with 60%
+Result: Filename = kvm_dev_ioctl_get_supported_cpuid_SnippetExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 11
+Result: #Sat Query = 57
+Result: Running Time = 18.3643

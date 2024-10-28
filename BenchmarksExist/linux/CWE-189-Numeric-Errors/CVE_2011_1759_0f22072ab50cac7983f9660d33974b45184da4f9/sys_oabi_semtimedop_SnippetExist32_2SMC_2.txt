@@ -1,0 +1,6 @@
+sys_oabi_semtimedop_SnippetExist32_2.smt2.cnf 5.0444 5.0444 64 0.0527
+Result: Exact # of solutions = 33
+Result: Filename = sys_oabi_semtimedop_SnippetExist32_2.smt2.cnf
+Result: #ExhaustUptoC Query = 9
+Result: #Sat Query = 64
+Result: Running Time = 0.0528

@@ -1,0 +1,9 @@
+snd_seq_oss_synth_make_info_SnippetExist32_2.smt2.cnf 61.5457 61.8525 117 1.4341
+Result: Lower Bound = 61.5457
+Result: Upper Bound = 61.8525
+Result: Sound Lower Bound = 62.6213 with 60%
+Result: Sound Upper Bound = 63.2997 with 60%
+Result: Filename = snd_seq_oss_synth_make_info_SnippetExist32_2.smt2.cnf
+Result: #ExhaustUptoC Query = 9
+Result: #Sat Query = 117
+Result: Running Time = 1.4341

@@ -1,0 +1,9 @@
+asf_write_packetExist32.smt2.cnf 105.0390 105.5260 58 6.1302
+Result: Lower Bound = 105.0390
+Result: Upper Bound = 105.5260
+Result: Sound Lower Bound = 104.4542 with 60%
+Result: Sound Upper Bound = 105.2509 with 60%
+Result: Filename = asf_write_packetExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 16
+Result: #Sat Query = 58
+Result: Running Time = 6.1302

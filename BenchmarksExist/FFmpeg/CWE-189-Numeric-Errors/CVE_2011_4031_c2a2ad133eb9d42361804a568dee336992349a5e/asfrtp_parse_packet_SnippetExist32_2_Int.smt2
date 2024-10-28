@@ -1,0 +1,32 @@
+(set-info :status unknown)
+(set-logic QF_LIA)
+
+(declare-fun rdi () Int)
+(declare-fun rsi () Int)
+(declare-fun rdx () Int)
+
+(declare-fun x9 () Int)
+(declare-fun x22 () Int)
+(declare-fun x24 () Int)
+(declare-fun x60 () Bool)
+(declare-fun x61 () Bool)
+(declare-fun x62 () Bool)
+(declare-fun x59 () Bool)
+(declare-fun x90 () Bool)
+(declare-fun x888 () Bool)
+(declare-fun x878 () Bool)
+(declare-fun x891 () Bool)
+
+(assert (= x61 (<= rdi 0)))
+(assert (= x62 (not x61)))
+(assert (= x59 (<= rdi 3)))
+(assert (= x60 (not x59)))
+(assert (= x22 (+ (* rdi 4294967295) rsi)))
+
+(assert (= x90 (ite (<= rdx x22) (and (>= rdx 0) (>= x22 0)) (and (< rdx 0) (< x22 0)))))
+(assert (= x888 (and (or x61 (and (not x59) (not x61))) (or x61 (and x90 (not x59) (not x61))))))
+(assert (= x878 (and x59 (not x61) (or (and x59 (not x61)) (and (not x90) (not x59) (not x61))))))
+(assert (= x891 (or x878 x888)))
+(assert x891)
+
+(check-sat)

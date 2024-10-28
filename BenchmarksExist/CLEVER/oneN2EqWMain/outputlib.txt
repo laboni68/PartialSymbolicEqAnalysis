@@ -1,0 +1,9 @@
+(goals
+(goal
+  (or (not (bvsle ((_ extract 31 0) rdi) #x0000000a))
+      (and (bvsle ((_ extract 31 0) rdi) #x0000000a)
+           (= ((_ extract 31 0) rdi) #x0000000b)))
+  (or (not (bvsle ((_ extract 31 0) rdi) #x0000000b))
+      (and (bvsle ((_ extract 31 0) rdi) #x0000000b)
+           (= ((_ extract 31 0) rdi) #x0000000c))))
+)

@@ -1,0 +1,6 @@
+[[Or(And(Not(Extract(31, 31, rdi) == 0),
+         Not(Extract(31, 0, rdi) == 0),
+         Extract(31, 0, rdi) <= 0),
+     And(Extract(31, 31, rdi) == 0,
+         Not(Extract(31, 0, rdi) == 0),
+         Not(Extract(31, 0, rdi) <= 0)))]]

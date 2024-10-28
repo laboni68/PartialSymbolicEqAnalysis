@@ -1,0 +1,45 @@
+/home/laboni/AngrTest/SearchMCRecent/Benchmarks/CLEVER/LoopUnreach5/NeqWMain/ResultmainNEQ.smt2
+/home/laboni/AngrTest/SearchMCRecent/Benchmarks/CLEVER/LoopUnreach5/NeqWMain/ResultmainEQ.smt2
+Satisfiability of solver :  sat
+rdi
+R
+Calculate for 32 bits
+=======================ALGO : Divide And Search==================
+variable is :  rdi
+Total nonequivalence for  5  to  6
+++++++++++++++++++++++++++++++++++++++++
+[5, 6]
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable  rdi  is  4294967294
+Total nonequivalence for variable  rdi  is  2
+Total range is  4294967296
+Percentage of variable  rdi 99.99999995343387 %
+===========================ALGO : Range Search==================
+=======================
+For values greater than 0
+=======================
+variable is :  rdi
+val  29  div  536870912 max_value  4
+=======================
+For values less than 0
+=======================
+variable is :  rdi
+unsat
+val  0  div  1 min_value  -2147483648.0
+========================
+Check for value 0
+========================
+variable is :  rdi
+Equivalent for value 0
+Total domain is  4294967296
+variable  rdi
+total equivalent domain is  4294967294
+total nonequivalent domain is  2
+===================Percentage of equivalence domain===================
+For variable  rdi
+Final total equivalent tuples are  4294967294
+Final percentage of tuples  99.99999995343387 %
+Final upper bounded nonequivalent tuples are  2
+Final percentage of tuples  4.6566128730773926e-08 %
+total time  0.4716796875  s
+total time  0.007861328125  m

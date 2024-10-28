@@ -1,0 +1,41 @@
+/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/linux/CWE-189-Numeric-Errors/CVE_2010_3015_731eb1a03a8445cde2cb23ecfb3580c6fa7bb690/Resultext4_ext_get_blocks_SnippetNEQ.smt2/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/linux/CWE-189-Numeric-Errors/CVE_2010_3015_731eb1a03a8445cde2cb23ecfb3580c6fa7bb690/Resultext4_ext_get_blocks_SnippetEQ.smt2Satisfiability of solver : sat
+rdi
+rsi
+R
+Calculate for 32 bits
+Multi dimensional divide N search
+i = 0 is rdi
+[-2147483648, 2147483647, 'rdi']
+i = 1 is rsi
+[-2147483648, 2147483647, 'rsi']
+total equivalence in range [(-2147483648, -1073741825, 'rdi'), (-2147483648, -1073741825, 'rsi')]
+total equivalence in range [(-2147483648, -1073741825, 'rdi'), (-1073741825, -1, 'rsi')]
+total equivalence in range [(-1073741825, -1, 'rdi'), (-2147483648, -1073741825, 'rsi')]
+total equivalence in range [(-1073741825, -536870913, 'rdi'), (-1073741825, -536870913, 'rsi')]
+total equivalence in range [(-1073741825, -536870913, 'rdi'), (-536870913, -1, 'rsi')]
+total equivalence in range [(-536870913, -1, 'rdi'), (-1073741825, -536870913, 'rsi')]
+total equivalence in range [(-536870913, -268435457, 'rdi'), (-536870913, -268435457, 'rsi')]
+total equivalence in range [(-536870913, -268435457, 'rdi'), (-268435457, -1, 'rsi')]
+total equivalence in range [(-268435457, -1, 'rdi'), (-536870913, -268435457, 'rsi')]
+total equivalence in range [(-2147483648, -1073741825, 'rdi'), (-1, 1073741823, 'rsi')]
+total equivalence in range [(-2147483648, -1073741825, 'rdi'), (1073741823, 2147483647, 'rsi')]
+total equivalence in range [(-1073741825, -536870913, 'rdi'), (-1, 536870911, 'rsi')]
+total equivalence in range [(-1073741825, -536870913, 'rdi'), (536870911, 1073741823, 'rsi')]
+total equivalence in range [(-536870913, -268435457, 'rdi'), (-1, 268435455, 'rsi')]
+total equivalence in range [(-536870913, -268435457, 'rdi'), (268435455, 536870911, 'rsi')]
+total equivalence in range [(-268435457, -1, 'rdi'), (268435455, 536870911, 'rsi')]
+total equivalence in range [(-536870913, -1, 'rdi'), (536870911, 1073741823, 'rsi')]
+total equivalence in range [(-1073741825, -1, 'rdi'), (1073741823, 2147483647, 'rsi')]
+total equivalence in range [(-1, 2147483647, 'rdi'), (-2147483648, -1, 'rsi')]
+total equivalence in range [(-1, 2147483647, 'rdi'), (-1, 2147483647, 'rsi')]
+----------EQ-----------
+---------NEQ-----------
+[[(-268435457, -1, 'rdi'), (-268435457, -1, 'rsi')], [(-268435457, -1, 'rdi'), (-1, 268435455, 'rsi')]]
+----------------------------------
+total equivalence lower bound 18302628877043761153 total 18446744073709551616
+Percentage 99.21874995343387%
+total nonequivalence upper bound 144115188075855872 total 18446744073709551616
+Percentage 0.78125%
+sum of totalEq and totalNeq 18446744065119617025
+total time 0.5712401866912842 s
+total time 0.00952066977818807 m

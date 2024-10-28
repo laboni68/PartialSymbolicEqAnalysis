@@ -1,0 +1,9 @@
+next_pidmap_SnippetExist32_2.smt2.cnf 21.7850 22.2849 125 0.2374
+Result: Lower Bound = 21.7850
+Result: Upper Bound = 22.2849
+Result: Sound Lower Bound = 21.5664 with 60%
+Result: Sound Upper Bound = 22.3330 with 60%
+Result: Filename = next_pidmap_SnippetExist32_2.smt2.cnf
+Result: #ExhaustUptoC Query = 16
+Result: #Sat Query = 125
+Result: Running Time = 0.2374

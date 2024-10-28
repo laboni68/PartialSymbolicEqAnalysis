@@ -1,0 +1,52 @@
+/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/FFmpeg/CWE-369-Divide-By-Zero/CVE_2018_14395_fa19fbcf712a6a6cc5a5cfdc3254a97b9bce6582/Resultmov_write_audio_tagNEQ.smt2/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/FFmpeg/CWE-369-Divide-By-Zero/CVE_2018_14395_fa19fbcf712a6a6cc5a5cfdc3254a97b9bce6582/Resultmov_write_audio_tagEQ.smt2Satisfiability of solver : sat
+rsi
+rdi
+rdx
+R
+Calculate for 32 bits
+Multi dimensional divide N search
+i = 0 is rsi
+[-2147483648, 2147483647, 'rsi']
+i = 1 is rdi
+[-2147483648, 2147483647, 'rdi']
+i = 2 is rdx
+[-2147483648, 2147483647, 'rdx']
+total equivalence in range [(-2147483648, -1, 'rsi'), (-2147483648, -1, 'rdi'), (-2147483648, -1, 'rdx')]
+total equivalence in range [(-2147483648, -1, 'rsi'), (-2147483648, -1, 'rdi'), (-1, 2147483647, 'rdx')]
+total equivalence in range [(-2147483648, -1, 'rsi'), (-1, 2147483647, 'rdi'), (-2147483648, -1, 'rdx')]
+total equivalence in range [(-2147483648, -1, 'rsi'), (-1, 2147483647, 'rdi'), (-1, 2147483647, 'rdx')]
+total equivalence in range [(-1, 2147483647, 'rsi'), (-2147483648, -1, 'rdi'), (-2147483648, -1, 'rdx')]
+total equivalence in range [(-1, 2147483647, 'rsi'), (-2147483648, -1, 'rdi'), (-1, 2147483647, 'rdx')]
+total equivalence in range [(-1, 2147483647, 'rsi'), (-1, 2147483647, 'rdi'), (-2147483648, -1, 'rdx')]
+total equivalence in range [(-1, 268435455, 'rsi'), (-1, 268435455, 'rdi'), (268435455, 536870911, 'rdx')]
+total equivalence in range [(-1, 268435455, 'rsi'), (268435455, 536870911, 'rdi'), (-1, 268435455, 'rdx')]
+total equivalence in range [(-1, 268435455, 'rsi'), (268435455, 536870911, 'rdi'), (268435455, 536870911, 'rdx')]
+total equivalence in range [(268435455, 536870911, 'rsi'), (-1, 268435455, 'rdi'), (-1, 268435455, 'rdx')]
+total equivalence in range [(268435455, 536870911, 'rsi'), (-1, 268435455, 'rdi'), (268435455, 536870911, 'rdx')]
+total equivalence in range [(268435455, 536870911, 'rsi'), (268435455, 536870911, 'rdi'), (-1, 268435455, 'rdx')]
+total equivalence in range [(268435455, 536870911, 'rsi'), (268435455, 536870911, 'rdi'), (268435455, 536870911, 'rdx')]
+total equivalence in range [(-1, 536870911, 'rsi'), (-1, 536870911, 'rdi'), (536870911, 1073741823, 'rdx')]
+total equivalence in range [(-1, 536870911, 'rsi'), (536870911, 1073741823, 'rdi'), (-1, 536870911, 'rdx')]
+total equivalence in range [(-1, 536870911, 'rsi'), (536870911, 1073741823, 'rdi'), (536870911, 1073741823, 'rdx')]
+total equivalence in range [(536870911, 1073741823, 'rsi'), (-1, 536870911, 'rdi'), (-1, 536870911, 'rdx')]
+total equivalence in range [(536870911, 1073741823, 'rsi'), (-1, 536870911, 'rdi'), (536870911, 1073741823, 'rdx')]
+total equivalence in range [(536870911, 1073741823, 'rsi'), (536870911, 1073741823, 'rdi'), (-1, 536870911, 'rdx')]
+total equivalence in range [(536870911, 1073741823, 'rsi'), (536870911, 1073741823, 'rdi'), (536870911, 1073741823, 'rdx')]
+total equivalence in range [(-1, 1073741823, 'rsi'), (-1, 1073741823, 'rdi'), (1073741823, 2147483647, 'rdx')]
+total equivalence in range [(-1, 1073741823, 'rsi'), (1073741823, 2147483647, 'rdi'), (-1, 1073741823, 'rdx')]
+total equivalence in range [(-1, 1073741823, 'rsi'), (1073741823, 2147483647, 'rdi'), (1073741823, 2147483647, 'rdx')]
+total equivalence in range [(1073741823, 2147483647, 'rsi'), (-1, 1073741823, 'rdi'), (-1, 1073741823, 'rdx')]
+total equivalence in range [(1073741823, 2147483647, 'rsi'), (-1, 1073741823, 'rdi'), (1073741823, 2147483647, 'rdx')]
+total equivalence in range [(1073741823, 2147483647, 'rsi'), (1073741823, 2147483647, 'rdi'), (-1, 1073741823, 'rdx')]
+total equivalence in range [(1073741823, 2147483647, 'rsi'), (1073741823, 2147483647, 'rdi'), (1073741823, 2147483647, 'rdx')]
+----------EQ-----------
+---------NEQ-----------
+[[(-1, 268435455, 'rsi'), (-1, 268435455, 'rdi'), (-1, 268435455, 'rdx')]]
+----------------------------------
+total equivalence lower bound 79208819645810271318504898559 total 79228162514264337593543950336
+Percentage 99.9755858676508%
+total nonequivalence upper bound 19342813113834066795298816 total 79228162514264337593543950336
+Percentage 0.0244140625%
+sum of totalEq and totalNeq 79228162458924105385300197375
+total time 0.17883944511413574 s
+total time 0.002980657418568929 m

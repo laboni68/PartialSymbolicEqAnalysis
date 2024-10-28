@@ -1,0 +1,46 @@
+kvm_dev_ioctl_get_supported_cpuid_SnippetExist32.smt2
+Calculate for 32 bits
+rdi
+[rdi = 28]  count  0
+[rdi = 25]  count  1
+[rdi = 29]  count  2
+[rdi = 40]  count  3
+[rdi = 9]  count  4
+[rdi = 32]  count  5
+[rdi = 33]  count  6
+[rdi = 16]  count  7
+[rdi = 13]  count  8
+[rdi = 30]  count  9
+[rdi = 7]  count  10
+[rdi = 11]  count  11
+[rdi = 4]  count  12
+[rdi = 24]  count  13
+[rdi = 18]  count  14
+[rdi = 5]  count  15
+[rdi = 12]  count  16
+[rdi = 1]  count  17
+[rdi = 6]  count  18
+[rdi = 8]  count  19
+[rdi = 38]  count  20
+[rdi = 34]  count  21
+[rdi = 10]  count  22
+[rdi = 3]  count  23
+[rdi = 21]  count  24
+[rdi = 19]  count  25
+[rdi = 27]  count  26
+[rdi = 39]  count  27
+[rdi = 17]  count  28
+[rdi = 14]  count  29
+[rdi = 15]  count  30
+[rdi = 23]  count  31
+[rdi = 35]  count  32
+[rdi = 22]  count  33
+[rdi = 26]  count  34
+[rdi = 37]  count  35
+[rdi = 31]  count  36
+[rdi = 36]  count  37
+[rdi = 20]  count  38
+[rdi = 2]  count  39
+[rdi = 0]  count  40
+count 41
+Total time  0.02199697494506836

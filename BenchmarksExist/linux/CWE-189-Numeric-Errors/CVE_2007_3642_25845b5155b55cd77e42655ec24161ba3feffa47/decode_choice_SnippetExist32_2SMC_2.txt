@@ -1,0 +1,9 @@
+decode_choice_SnippetExist32_2.smt2.cnf 70.8232 71.2891 74 0.7593
+Result: Lower Bound = 70.8232
+Result: Upper Bound = 71.2891
+Result: Sound Lower Bound = 70.4934 with 60%
+Result: Sound Upper Bound = 71.2279 with 60%
+Result: Filename = decode_choice_SnippetExist32_2.smt2.cnf
+Result: #ExhaustUptoC Query = 16
+Result: #Sat Query = 74
+Result: Running Time = 0.7593

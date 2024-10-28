@@ -1,0 +1,8 @@
+(goals
+(goal
+  (let ((a!1 (and (bvsle #x0000000080000000 rdi)
+                  (not (= ((_ extract 63 28) rdi) #x000000000)))))
+    (or (and (not (bvsle #x0000000080000000 rdi))
+             (= ((_ extract 63 28) rdi) #x000000000))
+        a!1)))
+)

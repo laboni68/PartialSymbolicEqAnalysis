@@ -1,0 +1,120 @@
+Satisfiability of solver : sat
+Variables : ['rdi', 'R']
+Number of variables : 1
+Calculate for unsigned 32
+=======================ALGO : Divide And Search==================
+variable is : rdi
+Total nonequivalence for 276824063 to 285212670
+Total nonequivalence for 285212671 to 301989886
+Total nonequivalence for 301989887 to 335544318
+Total nonequivalence for 335544319 to 402653182
+Total nonequivalence for 402653183 to 536870910
+Total nonequivalence for 822083583 to 838860798
+Total nonequivalence for 838860799 to 872415230
+Total nonequivalence for 872415231 to 939524094
+Total nonequivalence for 939524095 to 1073741822
+Total nonequivalence for 1358954495 to 1375731710
+Total nonequivalence for 1375731711 to 1409286142
+Total nonequivalence for 1409286143 to 1476395006
+Total nonequivalence for 1476395007 to 1610612734
+Total nonequivalence for 1895825407 to 1912602622
+Total nonequivalence for 1912602623 to 1946157054
+Total nonequivalence for 1946157055 to 2013265918
+Total nonequivalence for 2013265919 to 2147483646
+Total nonequivalence for 2432696319 to 2449473534
+Total nonequivalence for 2449473535 to 2483027966
+Total nonequivalence for 2483027967 to 2550136830
+Total nonequivalence for 2550136831 to 2684354558
+Total nonequivalence for 2969567231 to 2986344446
+Total nonequivalence for 2986344447 to 3019898878
+Total nonequivalence for 3019898879 to 3087007742
+Total nonequivalence for 3087007743 to 3221225470
+Total nonequivalence for 3506438143 to 3523215358
+Total nonequivalence for 3523215359 to 3556769790
+Total nonequivalence for 3556769791 to 3623878654
+Total nonequivalence for 3623878655 to 3758096382
+Total nonequivalence for 4043309055 to 4060086270
+Total nonequivalence for 4060086271 to 4093640702
+Total nonequivalence for 4093640703 to 4160749566
+Total nonequivalence for 4160749567 to 4294967294
+++++++++++++++++++++++++++++++++++++++++
+[268435455, 276824062]
+[276824063, 285212670]
+[285212671, 301989886]
+[301989887, 335544318]
+[335544319, 402653182]
+[402653183, 536870910]
+[536870911, 536870911]
+[805306367, 822083582]
+[822083583, 838860798]
+[838860799, 872415230]
+[872415231, 939524094]
+[939524095, 1073741822]
+[1073741823, 1073741823]
+[1342177279, 1358954494]
+[1358954495, 1375731710]
+[1375731711, 1409286142]
+[1409286143, 1476395006]
+[1476395007, 1610612734]
+[1610612735, 1610612735]
+[1879048191, 1895825406]
+[1895825407, 1912602622]
+[1912602623, 1946157054]
+[1946157055, 2013265918]
+[2013265919, 2147483646]
+[2147483647, 2147483647]
+[2415919103, 2432696318]
+[2432696319, 2449473534]
+[2449473535, 2483027966]
+[2483027967, 2550136830]
+[2550136831, 2684354558]
+[2684354559, 2684354559]
+[2952790015, 2969567230]
+[2969567231, 2986344446]
+[2986344447, 3019898878]
+[3019898879, 3087007742]
+[3087007743, 3221225470]
+[3221225471, 3221225471]
+[3489660927, 3506438142]
+[3506438143, 3523215358]
+[3523215359, 3556769790]
+[3556769791, 3623878654]
+[3623878655, 3758096382]
+[3758096383, 3758096383]
+[4026531839, 4043309054]
+[4043309055, 4060086270]
+[4060086271, 4093640702]
+[4093640703, 4160749566]
+[4160749567, 4294967294]
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable rdi is 2147483640
+Total nonequivalence for variable rdi is 2147483655
+Total range is 4294967296
+Percentage of variable rdi 49.999999813735485%
+==============================================
+==============================================
+===========================ALGO : Range Search==================
+=======================
+For values greater than 0
+=======================
+variable is : rdi
+val 5 div 32 max_value 268435455
+=======================
+Check for value 0
+=======================
+variable is : rdi
+Equivalent for value 0
+==============================================
+==============================================
+Total domain is 4294967296
+variable rdi
+total equivalent domain is 2147483640
+total nonequivalent domain is 2147483655
+===================Percentage of equivalence domain===================
+For variable rdi
+Final total equivalent tuples are 2147483640
+Final percentage of tuples 49.999999813735485%
+Final upper bounded nonequivalent tuples are 2147483656
+Final percentage of tuples 50.000000186264515%
+total time 4.067055940628052 s
+total time 0.06778426567713419 m

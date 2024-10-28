@@ -1,0 +1,21 @@
+; benchmark generated from python API
+(set-info :status unknown)
+(declare-fun rdi () (_ BitVec 32))
+(declare-fun rdx () (_ BitVec 32))
+(declare-fun rsi () (_ BitVec 32))
+(assert
+ (let (($x90 (bvule ((_ extract 23 0) rdi) (_ bv8388608 24))))
+ (let (($x87 (= ((_ extract 31 24) rdi) (_ bv0 8))))
+ (let ((?x9 ((_ extract 31 0) rdi)))
+ (let (($x72 (= ?x9 (_ bv0 32))))
+ (let (($x73 (not $x72)))
+ (let ((?x29 ((_ extract 31 0) rdx)))
+ (let ((?x58 (concat (_ bv0 32) ?x29)))
+ (let ((?x68 ((_ extract 63 0) (bvsdiv_i (concat (bvashr rsi (_ bv63 64)) rsi) (concat (_ bv0 96) ?x9)))))
+ (let (($x69 (bvsle ?x68 ?x58)))
+ (let (($x81458 (or $x72 (and (not $x69) $x87 $x90 $x73) (and (not (and $x87 $x90)) $x73))))
+ (let (($x70 (not $x69)))
+ (let (($x81461 (or (and $x70 $x73 $x81458) (and $x69 $x73 $x87 $x90))))
+ (and $x81461))))))))))))))
+(check-sat)
+

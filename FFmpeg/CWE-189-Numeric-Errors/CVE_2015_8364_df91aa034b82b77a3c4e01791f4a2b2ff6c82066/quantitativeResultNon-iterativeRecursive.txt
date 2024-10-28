@@ -1,0 +1,55 @@
+/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/FFmpeg/CWE-189-Numeric-Errors/CVE_2015_8364_df91aa034b82b77a3c4e01791f4a2b2ff6c82066/Resultff_ivi_init_planes_SnippetNEQ.smt2/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/FFmpeg/CWE-189-Numeric-Errors/CVE_2015_8364_df91aa034b82b77a3c4e01791f4a2b2ff6c82066/Resultff_ivi_init_planes_SnippetEQ.smt2Satisfiability of solver : sat
+rsi
+rdi
+R
+Calculate for 16 bits
+Multi dimensional divide N search
+i = 0 is rsi
+[-32768, 32767, 'rsi']
+i = 1 is rdi
+[-32768, 32767, 'rdi']
+total nonequivalence in range[(-32768, -1, 'rsi'), (-32768, -1, 'rdi')]
+total nonequivalence in range[(-32768, -24577, 'rsi'), (8191, 16383, 'rdi')]
+total nonequivalence in range[(-24577, -16385, 'rsi'), (8191, 16383, 'rdi')]
+total nonequivalence in range[(-32768, -16385, 'rsi'), (16383, 32767, 'rdi')]
+total nonequivalence in range[(-16385, -8193, 'rsi'), (8191, 16383, 'rdi')]
+total nonequivalence in range[(-8193, -1, 'rsi'), (8191, 16383, 'rdi')]
+total nonequivalence in range[(-16385, -1, 'rsi'), (16383, 32767, 'rdi')]
+total nonequivalence in range[(8191, 16383, 'rsi'), (-32768, -24577, 'rdi')]
+total nonequivalence in range[(8191, 16383, 'rsi'), (-24577, -16385, 'rdi')]
+total nonequivalence in range[(8191, 16383, 'rsi'), (-16385, -8193, 'rdi')]
+total nonequivalence in range[(8191, 16383, 'rsi'), (-8193, -1, 'rdi')]
+total nonequivalence in range[(16383, 32767, 'rsi'), (-32768, -16385, 'rdi')]
+total nonequivalence in range[(16383, 32767, 'rsi'), (-16385, -1, 'rdi')]
+total equivalence in range [(4095, 8191, 'rsi'), (4095, 8191, 'rdi')]
+total equivalence in range [(4095, 8191, 'rsi'), (8191, 12287, 'rdi')]
+total equivalence in range [(4095, 8191, 'rsi'), (12287, 16383, 'rdi')]
+total equivalence in range [(8191, 12287, 'rsi'), (4095, 8191, 'rdi')]
+total equivalence in range [(12287, 16383, 'rsi'), (4095, 8191, 'rdi')]
+total equivalence in range [(8191, 12287, 'rsi'), (8191, 12287, 'rdi')]
+total equivalence in range [(8191, 12287, 'rsi'), (12287, 16383, 'rdi')]
+total equivalence in range [(12287, 16383, 'rsi'), (8191, 12287, 'rdi')]
+total equivalence in range [(4095, 8191, 'rsi'), (16383, 20479, 'rdi')]
+total equivalence in range [(4095, 8191, 'rsi'), (20479, 24575, 'rdi')]
+total equivalence in range [(4095, 8191, 'rsi'), (24575, 28671, 'rdi')]
+total equivalence in range [(8191, 12287, 'rsi'), (16383, 20479, 'rdi')]
+total nonequivalence in range[(12287, 16383, 'rsi'), (24575, 28671, 'rdi')]
+total nonequivalence in range[(12287, 16383, 'rsi'), (28671, 32767, 'rdi')]
+total equivalence in range [(16383, 20479, 'rsi'), (4095, 8191, 'rdi')]
+total equivalence in range [(20479, 24575, 'rsi'), (4095, 8191, 'rdi')]
+total equivalence in range [(16383, 20479, 'rsi'), (8191, 12287, 'rdi')]
+total equivalence in range [(24575, 28671, 'rsi'), (4095, 8191, 'rdi')]
+total nonequivalence in range[(24575, 28671, 'rsi'), (12287, 16383, 'rdi')]
+total nonequivalence in range[(28671, 32767, 'rsi'), (12287, 16383, 'rdi')]
+total nonequivalence in range[(16383, 32767, 'rsi'), (16383, 32767, 'rdi')]
+----------EQ-----------
+---------NEQ-----------
+[[(-32768, -1, 'rsi'), (-32768, -1, 'rdi')], [(-32768, -28673, 'rsi'), (-1, 4095, 'rdi')], [(-32768, -28673, 'rsi'), (4095, 8191, 'rdi')], [(-28673, -24577, 'rsi'), (-1, 4095, 'rdi')], [(-28673, -24577, 'rsi'), (4095, 8191, 'rdi')], [(-32768, -24577, 'rsi'), (8191, 16383, 'rdi')], [(-24577, -20481, 'rsi'), (-1, 4095, 'rdi')], [(-24577, -20481, 'rsi'), (4095, 8191, 'rdi')], [(-20481, -16385, 'rsi'), (-1, 4095, 'rdi')], [(-20481, -16385, 'rsi'), (4095, 8191, 'rdi')], [(-24577, -16385, 'rsi'), (8191, 16383, 'rdi')], [(-32768, -16385, 'rsi'), (16383, 32767, 'rdi')], [(-16385, -12289, 'rsi'), (-1, 4095, 'rdi')], [(-16385, -12289, 'rsi'), (4095, 8191, 'rdi')], [(-12289, -8193, 'rsi'), (-1, 4095, 'rdi')], [(-12289, -8193, 'rsi'), (4095, 8191, 'rdi')], [(-16385, -8193, 'rsi'), (8191, 16383, 'rdi')], [(-8193, -4097, 'rsi'), (-1, 4095, 'rdi')], [(-8193, -4097, 'rsi'), (4095, 8191, 'rdi')], [(-4097, -1, 'rsi'), (-1, 4095, 'rdi')], [(-4097, -1, 'rsi'), (4095, 8191, 'rdi')], [(-8193, -1, 'rsi'), (8191, 16383, 'rdi')], [(-16385, -1, 'rsi'), (16383, 32767, 'rdi')], [(-1, 4095, 'rsi'), (-32768, -28673, 'rdi')], [(-1, 4095, 'rsi'), (-28673, -24577, 'rdi')], [(4095, 8191, 'rsi'), (-32768, -28673, 'rdi')], [(4095, 8191, 'rsi'), (-28673, -24577, 'rdi')], [(-1, 4095, 'rsi'), (-24577, -20481, 'rdi')], [(-1, 4095, 'rsi'), (-20481, -16385, 'rdi')], [(4095, 8191, 'rsi'), (-24577, -20481, 'rdi')], [(4095, 8191, 'rsi'), (-20481, -16385, 'rdi')], [(8191, 16383, 'rsi'), (-32768, -24577, 'rdi')], [(8191, 16383, 'rsi'), (-24577, -16385, 'rdi')], [(-1, 4095, 'rsi'), (-16385, -12289, 'rdi')], [(-1, 4095, 'rsi'), (-12289, -8193, 'rdi')], [(4095, 8191, 'rsi'), (-16385, -12289, 'rdi')], [(4095, 8191, 'rsi'), (-12289, -8193, 'rdi')], [(-1, 4095, 'rsi'), (-8193, -4097, 'rdi')], [(-1, 4095, 'rsi'), (-4097, -1, 'rdi')], [(4095, 8191, 'rsi'), (-8193, -4097, 'rdi')], [(4095, 8191, 'rsi'), (-4097, -1, 'rdi')], [(8191, 16383, 'rsi'), (-16385, -8193, 'rdi')], [(8191, 16383, 'rsi'), (-8193, -1, 'rdi')], [(16383, 32767, 'rsi'), (-32768, -16385, 'rdi')], [(16383, 32767, 'rsi'), (-16385, -1, 'rdi')], [(-1, 4095, 'rsi'), (-1, 4095, 'rdi')], [(-1, 4095, 'rsi'), (4095, 8191, 'rdi')], [(4095, 8191, 'rsi'), (-1, 4095, 'rdi')], [(-1, 4095, 'rsi'), (8191, 12287, 'rdi')], [(-1, 4095, 'rsi'), (12287, 16383, 'rdi')], [(8191, 12287, 'rsi'), (-1, 4095, 'rdi')], [(12287, 16383, 'rsi'), (-1, 4095, 'rdi')], [(12287, 16383, 'rsi'), (12287, 16383, 'rdi')], [(-1, 4095, 'rsi'), (16383, 20479, 'rdi')], [(-1, 4095, 'rsi'), (20479, 24575, 'rdi')], [(-1, 4095, 'rsi'), (24575, 28671, 'rdi')], [(-1, 4095, 'rsi'), (28671, 32767, 'rdi')], [(4095, 8191, 'rsi'), (28671, 32767, 'rdi')], [(8191, 12287, 'rsi'), (20479, 24575, 'rdi')], [(12287, 16383, 'rsi'), (16383, 20479, 'rdi')], [(12287, 16383, 'rsi'), (20479, 24575, 'rdi')], [(8191, 12287, 'rsi'), (24575, 28671, 'rdi')], [(8191, 12287, 'rsi'), (28671, 32767, 'rdi')], [(12287, 16383, 'rsi'), (24575, 28671, 'rdi')], [(12287, 16383, 'rsi'), (28671, 32767, 'rdi')], [(16383, 20479, 'rsi'), (-1, 4095, 'rdi')], [(20479, 24575, 'rsi'), (-1, 4095, 'rdi')], [(16383, 20479, 'rsi'), (12287, 16383, 'rdi')], [(20479, 24575, 'rsi'), (8191, 12287, 'rdi')], [(20479, 24575, 'rsi'), (12287, 16383, 'rdi')], [(24575, 28671, 'rsi'), (-1, 4095, 'rdi')], [(28671, 32767, 'rsi'), (-1, 4095, 'rdi')], [(28671, 32767, 'rsi'), (4095, 8191, 'rdi')], [(24575, 28671, 'rsi'), (8191, 12287, 'rdi')], [(24575, 28671, 'rsi'), (12287, 16383, 'rdi')], [(28671, 32767, 'rsi'), (8191, 12287, 'rdi')], [(28671, 32767, 'rsi'), (12287, 16383, 'rdi')], [(16383, 32767, 'rsi'), (16383, 32767, 'rdi')]]
+----------------------------------
+total equivalence lower bound 268435456 total 4294967296
+Percentage 6.25%
+total nonequivalence upper bound 4026400769 total 4294967296
+Percentage 93.74694826547056%
+sum of totalEq and totalNeq 4294836225
+total time 10.9940824508667 s
+total time 0.18323470751444498 m

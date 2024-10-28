@@ -1,0 +1,9 @@
+bcm_tx_setup_SnippetExist32_2.smt2.cnf 7.3942 7.6716 83 0.0703
+Result: Lower Bound = 7.3942
+Result: Upper Bound = 7.6716
+Result: Sound Lower Bound = 7.2308 with 60%
+Result: Sound Upper Bound = 8.5306 with 60%
+Result: Filename = bcm_tx_setup_SnippetExist32_2.smt2.cnf
+Result: #ExhaustUptoC Query = 9
+Result: #Sat Query = 83
+Result: Running Time = 0.0703

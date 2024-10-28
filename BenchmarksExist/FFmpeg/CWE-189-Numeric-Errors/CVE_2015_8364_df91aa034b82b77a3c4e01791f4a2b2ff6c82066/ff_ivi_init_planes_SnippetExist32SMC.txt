@@ -1,0 +1,9 @@
+ff_ivi_init_planes_SnippetExist32.smt2.cnf 125.7890 126.1340 85 15.2440
+Result: Lower Bound = 125.7890
+Result: Upper Bound = 126.1340
+Result: Sound Lower Bound = 125.2087 with 60%
+Result: Sound Upper Bound = 125.8831 with 60%
+Result: Filename = ff_ivi_init_planes_SnippetExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 17
+Result: #Sat Query = 85
+Result: Running Time = 15.2440

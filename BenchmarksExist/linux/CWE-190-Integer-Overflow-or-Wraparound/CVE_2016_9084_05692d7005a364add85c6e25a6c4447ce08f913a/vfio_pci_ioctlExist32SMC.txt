@@ -1,0 +1,9 @@
+vfio_pci_ioctlExist32.smt2.cnf 255.0060 255.1440 68 19.2660
+Result: Lower Bound = 255.0060
+Result: Upper Bound = 255.1440
+Result: Sound Lower Bound = 255.3757 with 60%
+Result: Sound Upper Bound = 256.4343 with 60%
+Result: Filename = vfio_pci_ioctlExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 10
+Result: #Sat Query = 68
+Result: Running Time = 19.2660

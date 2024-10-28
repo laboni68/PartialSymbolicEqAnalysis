@@ -1,0 +1,156 @@
+Satisfiability of solver : sat
+Variables : ['rcx', 'rdx', 'rdi', 'rsi', 'R']
+Number of variables : 4
+Calculate for 32 bits
+=======================ALGO : Divide And Search==================
+variable is : rcx
+++++++++++++++++++++++++++++++++++++++++
+[-2147483648, -1879048194]
+[-1879048193, -1610612738]
+[-1610612737, -1342177282]
+[-1342177281, -1073741826]
+[-1073741825, -805306370]
+[-805306369, -536870914]
+[-536870913, -268435458]
+[-268435457, -2]
+[-1, 268435454]
+[268435455, 536870910]
+[536870911, 805306366]
+[805306367, 1073741822]
+[1073741823, 1342177278]
+[1342177279, 1610612734]
+[1610612735, 1879048190]
+[1879048191, 2147483646]
+++++++++++++++++++++++++++++++++++++++++
+Before rcx is 0 After 0
+Total equivalence for variable rcx is 0
+Total nonequivalence for variable rcx is 4294967296
+Total range is 4294967296
+Percentage of variable rcx 0.0%
+variable is : rdx
+++++++++++++++++++++++++++++++++++++++++
+[-1, 14]
+[15, 30]
+[31, 46]
+[47, 62]
+[63, 63]
+++++++++++++++++++++++++++++++++++++++++
+Before rdx is 4294967230 After 4294967231
+Total equivalence for variable rdx is 4294967231
+Total nonequivalence for variable rdx is 65
+Total range is 4294967296
+Percentage of variable rdx 99.99999848660082%
+variable is : rdi
+++++++++++++++++++++++++++++++++++++++++
+[-2147483648, -1879048194]
+[-1879048193, -1610612738]
+[-1610612737, -1342177282]
+[-1342177281, -1073741826]
+[-1073741825, -805306370]
+[-805306369, -536870914]
+[-536870913, -268435458]
+[-268435457, -2]
+[-1, 268435454]
+[268435455, 536870910]
+[536870911, 805306366]
+[805306367, 1073741822]
+[1073741823, 1342177278]
+[1342177279, 1610612734]
+[1610612735, 1879048190]
+[1879048191, 2147483646]
+++++++++++++++++++++++++++++++++++++++++
+Before rdi is 0 After 0
+Total equivalence for variable rdi is 0
+Total nonequivalence for variable rdi is 4294967296
+Total range is 4294967296
+Percentage of variable rdi 0.0%
+variable is : rsi
+++++++++++++++++++++++++++++++++++++++++
+[-2147483648, -1879048194]
+[-1879048193, -1610612738]
+[-1610612737, -1342177282]
+[-1342177281, -1073741826]
+[-1073741825, -805306370]
+[-805306369, -536870914]
+[-536870913, -268435458]
+[-268435457, -2]
+[-1, 268435454]
+[268435455, 536870910]
+[536870911, 805306366]
+[805306367, 1073741822]
+[1073741823, 1342177278]
+[1342177279, 1610612734]
+[1610612735, 1879048190]
+[1879048191, 2147483646]
+++++++++++++++++++++++++++++++++++++++++
+Before rsi is 0 After 0
+Total equivalence for variable rsi is 0
+Total nonequivalence for variable rsi is 4294967296
+Total range is 4294967296
+Percentage of variable rsi 0.0%
+==============================================
+==============================================
+===========================ALGO : Range Search==================
+=======================
+For values greater than 0
+=======================
+variable is : rcx
+val 26 div 67108864 max_value 49
+variable is : rdx
+val 31 div 2147483648 max_value 0 : 0 is not included
+variable is : rdi
+val 31 div 2147483648 max_value 0 : 0 is not included
+variable is : rsi
+val 31 div 2147483648 max_value 0 : 0 is not included
+=======================
+For values less than 0
+=======================
+variable is : rcx
+sat
+val 31 div 2147483648 min_value 0 : 0 is not included
+variable is : rdx
+unsat
+val 0 div 1 min_value -2147483648.0
+variable is : rdi
+sat
+val 31 div 2147483648 min_value 0 : 0 is not included
+variable is : rsi
+sat
+val 31 div 2147483648 min_value 0 : 0 is not included
+=======================
+Check for value 0
+=======================
+variable is : rcx
+Equivalent for value 0
+variable is : rdx
+Equivalent for value 0
+variable is : rdi
+Not equivalent for 0
+variable is : rsi
+Not equivalent for 0
+==============================================
+==============================================
+Total domain is 340282366920938463463374607431768211456
+variable rcx
+total equivalent domain is 50
+total nonequivalent domain is 4294967246
+variable rdx
+total equivalent domain is 4294967231
+total nonequivalent domain is 65
+variable rdi
+total equivalent domain is 0
+total nonequivalent domain is 4294967296
+variable rsi
+total equivalent domain is 0
+total nonequivalent domain is 4294967296
+===================Percentage of equivalence domain===================
+For variable rcx
+For variable rdx
+For variable rdi
+For variable rsi
+Final total equivalent tuples are 340282361771107959988110903407454191616
+Final percentage of tuples 99.99999848660083%
+Final upper bounded nonequivalent tuples are 5149830503475263704024314019840
+Final percentage of tuples 1.5133991661318673e-06%
+total time 3.16963529586792 s
+total time 0.052827254931132 m

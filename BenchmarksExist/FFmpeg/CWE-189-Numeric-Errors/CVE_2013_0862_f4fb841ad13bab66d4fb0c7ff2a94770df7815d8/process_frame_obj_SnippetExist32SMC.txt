@@ -1,0 +1,9 @@
+process_frame_obj_SnippetExist32.smt2.cnf 125.7700 126.1800 108 17.2632
+Result: Lower Bound = 125.7700
+Result: Upper Bound = 126.1800
+Result: Sound Lower Bound = 125.7832 with 60%
+Result: Sound Upper Bound = 126.2655 with 60%
+Result: Filename = process_frame_obj_SnippetExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 15
+Result: #Sat Query = 108
+Result: Running Time = 17.2632

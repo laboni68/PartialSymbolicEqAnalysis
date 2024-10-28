@@ -1,0 +1,47 @@
+/home/laboni/AngrTest/SearchMCRecent/Benchmarks/CLEVER/LoopUnreach20/NeqWMain/ResultmainNEQ.smt2
+/home/laboni/AngrTest/SearchMCRecent/Benchmarks/CLEVER/LoopUnreach20/NeqWMain/ResultmainEQ.smt2
+Satisfiability of solver :  sat
+rdi
+R
+Calculate for 32 bits
+=======================ALGO : Divide And Search==================
+variable is :  rdi
+Total nonequivalence for  18  to  18
+++++++++++++++++++++++++++++++++++++++++
+[18, 18]
+[19, 20]
+[21, 21]
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable  rdi  is  4294967292
+Total nonequivalence for variable  rdi  is  4
+Total range is  4294967296
+Percentage of variable  rdi 99.99999990686774 %
+===========================ALGO : Range Search==================
+=======================
+For values greater than 0
+=======================
+variable is :  rdi
+val  27  div  134217728 max_value  17
+=======================
+For values less than 0
+=======================
+variable is :  rdi
+unsat
+val  0  div  1 min_value  -2147483648.0
+========================
+Check for value 0
+========================
+variable is :  rdi
+Equivalent for value 0
+Total domain is  4294967296
+variable  rdi
+total equivalent domain is  4294967292
+total nonequivalent domain is  4
+===================Percentage of equivalence domain===================
+For variable  rdi
+Final total equivalent tuples are  4294967292
+Final percentage of tuples  99.99999990686774 %
+Final upper bounded nonequivalent tuples are  4
+Final percentage of tuples  9.313225746154785e-08 %
+total time  0.5600094795227051  s
+total time  0.009333491325378418  m

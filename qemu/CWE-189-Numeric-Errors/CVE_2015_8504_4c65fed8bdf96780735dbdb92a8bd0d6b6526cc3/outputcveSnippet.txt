@@ -1,0 +1,6 @@
+(goals
+(goal
+  (or (not (= ((_ extract 31 0) rdi) #x00000000))
+      (and (= ((_ extract 31 0) rdi) #x00000000)
+           (= ((_ extract 31 0) rdi) #x000000ff))))
+)

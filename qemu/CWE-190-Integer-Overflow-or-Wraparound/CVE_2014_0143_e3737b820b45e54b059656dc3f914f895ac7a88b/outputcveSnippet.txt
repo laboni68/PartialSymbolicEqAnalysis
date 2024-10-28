@@ -1,0 +1,9 @@
+(goals
+(goal
+  (let ((a!1 ((_ extract 63 0)
+               (bvsdiv_i (concat (bvashr rdx #x000000000000003f) rdx)
+                         (concat #x000000000000000000000000
+                                 ((_ extract 31 0) rsi))))))
+    (bvsle a!1 (concat #x00000000 ((_ extract 31 0) rdi))))
+  (not (= ((_ extract 31 0) rsi) #x00000000)))
+)

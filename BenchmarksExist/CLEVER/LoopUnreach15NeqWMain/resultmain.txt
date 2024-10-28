@@ -1,0 +1,9 @@
+[[Or(Extract(31, 0, rdi) <= 12,
+     And(Extract(31, 31, rdi) == 0,
+         Extract(31, 0, rdi) <= 15,
+         Not(Extract(31, 0, rdi) <= 12)),
+     And(Not(Extract(31, 0, rdi) <= 15),
+         Not(Extract(31, 0, rdi) <= 12))),
+  Or(Extract(31, 0, rdi) <= 12,
+     And(Not(Extract(31, 0, rdi) <= 15),
+         Not(Extract(31, 0, rdi) <= 12)))]]

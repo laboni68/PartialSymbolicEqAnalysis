@@ -1,0 +1,9 @@
+cloop_open_SnippetExist32.smt2.cnf 60.7330 61.2278 146 1.0895
+Result: Lower Bound = 60.7330
+Result: Upper Bound = 61.2278
+Result: Sound Lower Bound = 60.6500 with 60%
+Result: Sound Upper Bound = 61.2815 with 60%
+Result: Filename = cloop_open_SnippetExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 19
+Result: #Sat Query = 146
+Result: Running Time = 1.0895

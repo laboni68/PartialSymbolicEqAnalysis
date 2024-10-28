@@ -1,0 +1,45 @@
+/home/laboni/AngrTest/SearchMCRecent/Benchmarks/CLEVER/divide/EqWMain/ResultlibNEQ.smt2
+/home/laboni/AngrTest/SearchMCRecent/Benchmarks/CLEVER/divide/EqWMain/ResultlibEQ.smt2
+Satisfiability of solver :  sat
+rsi
+R
+Calculate for 32 bits
+=======================ALGO : Divide And Search==================
+variable is :  rsi
+Total nonequivalence for  0  to  0
+++++++++++++++++++++++++++++++++++++++++
+[0, 0]
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable  rsi  is  4294967295
+Total nonequivalence for variable  rsi  is  1
+Total range is  4294967296
+Percentage of variable  rsi 99.99999997671694 %
+===========================ALGO : Range Search==================
+=======================
+For values greater than 0
+=======================
+variable is :  rsi
+val  0  div  1 max_value  2147483647
+=======================
+For values less than 0
+=======================
+variable is :  rsi
+unsat
+val  0  div  1 min_value  -2147483648.0
+========================
+Check for value 0
+========================
+variable is :  rsi
+Not equivalent for 0
+Total domain is  4294967296
+variable  rsi
+total equivalent domain is  4294967295.0
+total nonequivalent domain is  1.0
+===================Percentage of equivalence domain===================
+For variable  rsi
+Final total equivalent tuples are  4294967295.0
+Final percentage of tuples  99.99999997671694 %
+Final upper bounded nonequivalent tuples are  1.0
+Final percentage of tuples  2.3283064365386963e-08 %
+total time  2.242417573928833  s
+total time  0.03737362623214722  m

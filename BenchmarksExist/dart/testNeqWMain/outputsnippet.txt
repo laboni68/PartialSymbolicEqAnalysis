@@ -1,0 +1,54 @@
+(goals
+(goal
+  (let ((a!1 (and (not (= rsi #x00000014))
+                  (not (bvsle rdi #x00000000))
+                  (= ((_ extract 31 31) (bvmul rdi rdi rdi)) #b0)
+                  (= R #x00000000000000000000000000000000)))
+        (a!2 (and (= rsi #x00000014)
+                  (not (bvsle rdi #x00000000))
+                  (= ((_ extract 31 31) (bvmul rdi rdi rdi)) #b0)
+                  (= R #x0000000000000000c08f400000000000)))
+        (a!3 (not (= ((_ extract 31 31) (bvmul rdi rdi rdi)) #b0)))
+        (a!4 (and (bvsle rdi #x00000000)
+                  (= ((_ extract 31 31) (bvmul rdi rdi rdi)) #b0)
+                  (= R #x00000000000000000000000000000000))))
+    (or a!1
+        a!2
+        (and (not (= rsi #x0000000a))
+             (not (bvsle rdi #x00000000))
+             a!3
+             (= R #x00000000000000000000000000000000))
+        (and (= rsi #x0000000a)
+             (not (bvsle rdi #x00000000))
+             a!3
+             (= R #x0000000000000000408f400000000000))
+        a!4
+        (and (bvsle rdi #x00000000)
+             a!3
+             (= R #x00000000000000000000000000000000))))
+  (let ((a!1 (and (not (= rsi #x0000000a))
+                  (not (bvsle rdi #x00000000))
+                  (not (bvsle (bvmul rdi rdi rdi) #x00000000))
+                  (= R #x00000000000000000000000000000000)))
+        (a!2 (and (= rsi #x0000000a)
+                  (not (bvsle rdi #x00000000))
+                  (not (bvsle (bvmul rdi rdi rdi) #x00000000))
+                  (= R #x0000000000000000408f400000000000)))
+        (a!3 (and (bvsle rdi #x00000000)
+                  (not (bvsle (bvmul rdi rdi rdi) #x00000000))
+                  (= R #x00000000000000000000000000000000))))
+    (or a!1
+        a!2
+        (and (not (= rsi #x00000014))
+             (not (bvsle rdi #x00000000))
+             (bvsle (bvmul rdi rdi rdi) #x00000000)
+             (= R #x00000000000000000000000000000000))
+        (and (= rsi #x00000014)
+             (not (bvsle rdi #x00000000))
+             (bvsle (bvmul rdi rdi rdi) #x00000000)
+             (= R #x0000000000000000c08f400000000000))
+        a!3
+        (and (bvsle rdi #x00000000)
+             (bvsle (bvmul rdi rdi rdi) #x00000000)
+             (= R #x00000000000000000000000000000000)))))
+)

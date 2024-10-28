@@ -1,0 +1,9 @@
+allocate_buffers_SnippetExist32.smt2.cnf 60.7678 61.2377 123 0.8744
+Result: Lower Bound = 60.7678
+Result: Upper Bound = 61.2377
+Result: Sound Lower Bound = 60.6001 with 60%
+Result: Sound Upper Bound = 61.3128 with 60%
+Result: Filename = allocate_buffers_SnippetExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 21
+Result: #Sat Query = 123
+Result: Running Time = 0.8744

@@ -1,0 +1,6 @@
+[And(Or(And(10 < Extract(31, 0, rdi), 11 == R),
+        And(10 >= Extract(31, 0, rdi),
+            R == Extract(31, 0, rdi))),
+     Or(And(10 < Extract(31, 0, rdi), 11 == R),
+        And(10 >= Extract(31, 0, rdi),
+            R == 1 + Extract(31, 0, rdi))))]

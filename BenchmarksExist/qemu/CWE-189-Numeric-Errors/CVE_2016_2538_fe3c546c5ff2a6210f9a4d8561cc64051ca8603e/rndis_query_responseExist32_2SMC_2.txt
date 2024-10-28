@@ -1,0 +1,9 @@
+rndis_query_responseExist32_2.smt2.cnf 95.2106 95.6776 151 31.3574
+Result: Lower Bound = 95.2106
+Result: Upper Bound = 95.6776
+Result: Sound Lower Bound = 95.2792 with 60%
+Result: Sound Upper Bound = 95.7324 with 60%
+Result: Filename = rndis_query_responseExist32_2.smt2.cnf
+Result: #ExhaustUptoC Query = 12
+Result: #Sat Query = 151
+Result: Running Time = 31.3574

@@ -1,0 +1,9 @@
+pkt_find_dev_from_minor_SnippetExist32.smt2.cnf 63.0269 63.4830 74 0.6105
+Result: Lower Bound = 63.0269
+Result: Upper Bound = 63.4830
+Result: Sound Lower Bound = 62.4902 with 60%
+Result: Sound Upper Bound = 63.3760 with 60%
+Result: Filename = pkt_find_dev_from_minor_SnippetExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 12
+Result: #Sat Query = 74
+Result: Running Time = 0.6105

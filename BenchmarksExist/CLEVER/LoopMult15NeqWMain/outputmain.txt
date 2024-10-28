@@ -1,0 +1,10 @@
+(goals
+(goal
+  (or (bvsle rdi #x0000000c)
+      (and (bvsle rdi #x0000000f)
+           (not (bvsle rdi #x0000000c))
+           (= rdi #x00000000))
+      (and (not (bvsle rdi #x0000000f)) (not (bvsle rdi #x0000000c))))
+  (or (bvsle rdi #x0000000c)
+      (and (not (bvsle rdi #x0000000f)) (not (bvsle rdi #x0000000c)))))
+)

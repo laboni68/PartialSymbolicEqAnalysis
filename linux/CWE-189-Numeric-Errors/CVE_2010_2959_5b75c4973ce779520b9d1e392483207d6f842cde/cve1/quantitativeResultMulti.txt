@@ -1,0 +1,26 @@
+/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/linux/CWE-189-Numeric-Errors/CVE_2010_2959_5b75c4973ce779520b9d1e392483207d6f842cde/cve1/Resultbcm_tx_setup_SnippetNEQ.smt2/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/linux/CWE-189-Numeric-Errors/CVE_2010_2959_5b75c4973ce779520b9d1e392483207d6f842cde/cve1/Resultbcm_tx_setup_SnippetEQ.smt2Satisfiability of solver : sat
+rdi
+R
+Calculate for 32 bits
+Multi dimensional divide N search
+i = 0 is rdi
+[-2147483648, 2147483648, 'rdi']
+total nonequivalence in range[(-2147483648, 0, 'rdi')]
+total nonequivalence in range[(16777216, 33554432, 'rdi')]
+total nonequivalence in range[(33554432, 67108864, 'rdi')]
+total nonequivalence in range[(67108864, 134217728, 'rdi')]
+total nonequivalence in range[(134217728, 268435456, 'rdi')]
+total nonequivalence in range[(268435456, 536870912, 'rdi')]
+total nonequivalence in range[(536870912, 1073741824, 'rdi')]
+total nonequivalence in range[(1073741824, 2147483648, 'rdi')]
+----------EQ-----------
+---------NEQ-----------
+[[(-2147483648, 0, 'rdi')], [(0, 16777216, 'rdi')], [(16777216, 33554432, 'rdi')], [(33554432, 67108864, 'rdi')], [(67108864, 134217728, 'rdi')], [(134217728, 268435456, 'rdi')], [(268435456, 536870912, 'rdi')], [(536870912, 1073741824, 'rdi')], [(1073741824, 2147483648, 'rdi')]]
+----------------------------------
+total equivalence lower bound 0 total 4294967296
+Percentage 0.0%
+total nonequivalence upper bound 4294967296 total 4294967296
+Percentage 100.0%
+sum of totalEq and totalNeq 4294967296
+total time 0.17491841316223145 s
+total time 0.0029153068860371906 m

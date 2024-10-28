@@ -1,0 +1,9 @@
+xt_alloc_table_info_SnippetExist32_2.smt2.cnf 31.3989 31.8929 46 1.8919
+Result: Lower Bound = 31.3989
+Result: Upper Bound = 31.8929
+Result: Sound Lower Bound = 31.5063 with 60%
+Result: Sound Upper Bound = 32.3672 with 60%
+Result: Filename = xt_alloc_table_info_SnippetExist32_2.smt2.cnf
+Result: #ExhaustUptoC Query = 6
+Result: #Sat Query = 46
+Result: Running Time = 1.8919

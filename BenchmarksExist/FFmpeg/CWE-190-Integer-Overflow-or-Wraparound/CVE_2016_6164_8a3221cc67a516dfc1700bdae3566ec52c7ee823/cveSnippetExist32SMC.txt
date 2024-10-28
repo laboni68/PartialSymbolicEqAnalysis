@@ -1,0 +1,9 @@
+cveSnippetExist32.smt2.cnf 61.7693 62.2399 103 0.8156
+Result: Lower Bound = 61.7693
+Result: Upper Bound = 62.2399
+Result: Sound Lower Bound = 61.6510 with 60%
+Result: Sound Upper Bound = 62.2808 with 60%
+Result: Filename = cveSnippetExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 13
+Result: #Sat Query = 103
+Result: Running Time = 0.8156

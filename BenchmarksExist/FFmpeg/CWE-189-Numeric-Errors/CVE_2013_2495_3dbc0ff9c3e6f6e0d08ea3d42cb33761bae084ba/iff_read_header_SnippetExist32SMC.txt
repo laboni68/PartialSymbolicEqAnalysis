@@ -1,0 +1,9 @@
+iff_read_header_SnippetExist32.smt2.cnf 62.7930 63.1608 118 0.8800
+Result: Lower Bound = 62.7930
+Result: Upper Bound = 63.1608
+Result: Sound Lower Bound = 62.6622 with 60%
+Result: Sound Upper Bound = 63.2735 with 60%
+Result: Filename = iff_read_header_SnippetExist32.smt2.cnf
+Result: #ExhaustUptoC Query = 11
+Result: #Sat Query = 118
+Result: Running Time = 0.8800

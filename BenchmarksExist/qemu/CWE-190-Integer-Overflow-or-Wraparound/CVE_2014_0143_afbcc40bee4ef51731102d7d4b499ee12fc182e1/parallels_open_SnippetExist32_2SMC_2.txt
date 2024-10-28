@@ -1,0 +1,9 @@
+parallels_open_SnippetExist32_2.smt2.cnf 28.4388 28.8894 78 0.3113
+Result: Lower Bound = 28.4388
+Result: Upper Bound = 28.8894
+Result: Sound Lower Bound = 28.5533 with 60%
+Result: Sound Upper Bound = 29.3406 with 60%
+Result: Filename = parallels_open_SnippetExist32_2.smt2.cnf
+Result: #ExhaustUptoC Query = 12
+Result: #Sat Query = 78
+Result: Running Time = 0.3113

@@ -1,0 +1,135 @@
+Satisfiability of solver : sat
+Variables : ['rsi', 'r9', 'rdi', 'rdx', 'r8', 'rcx', 'R']
+Number of variables : 6
+Calculate for 32 bits
+=======================ALGO : Divide And Search==================
+variable is : rsi
+++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable rsi is 0
+Total nonequivalence for variable rsi is 4294967295
+Total range is 4294967296
+Percentage of variable rsi 0.0%
+variable is : r9
+++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable r9 is 0
+Total nonequivalence for variable r9 is 4294967295
+Total range is 4294967296
+Percentage of variable r9 0.0%
+variable is : rdi
+++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable rdi is 0
+Total nonequivalence for variable rdi is 4294967295
+Total range is 4294967296
+Percentage of variable rdi 0.0%
+variable is : rdx
+++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable rdx is 0
+Total nonequivalence for variable rdx is 4294967295
+Total range is 4294967296
+Percentage of variable rdx 0.0%
+variable is : r8
+++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable r8 is 0
+Total nonequivalence for variable r8 is 4294967295
+Total range is 4294967296
+Percentage of variable r8 0.0%
+variable is : rcx
+++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++
+Total equivalence for variable rcx is 0
+Total nonequivalence for variable rcx is 4294967295
+Total range is 4294967296
+Percentage of variable rcx 0.0%
+==============================================
+==============================================
+===========================ALGO : Range Search==================
+=======================
+For values greater than 0
+=======================
+variable is : rsi
+val 31 div 2147483648 max_value 0 : 0 is not included
+variable is : r9
+val 31 div 2147483648 max_value 0 : 0 is not included
+variable is : rdi
+val 31 div 2147483648 max_value 0 : 0 is not included
+variable is : rdx
+val 31 div 2147483648 max_value 0 : 0 is not included
+variable is : r8
+val 31 div 2147483648 max_value 0 : 0 is not included
+variable is : rcx
+val 31 div 2147483648 max_value 0 : 0 is not included
+=======================
+For values less than 0
+=======================
+variable is : rsi
+sat
+val 31 div 2147483648 min_value 0 : 0 is not included
+variable is : r9
+sat
+val 31 div 2147483648 min_value 0 : 0 is not included
+variable is : rdi
+sat
+val 31 div 2147483648 min_value 0 : 0 is not included
+variable is : rdx
+sat
+val 31 div 2147483648 min_value 0 : 0 is not included
+variable is : r8
+sat
+val 31 div 2147483648 min_value 0 : 0 is not included
+variable is : rcx
+sat
+val 31 div 2147483648 min_value 0 : 0 is not included
+=======================
+Check for value 0
+=======================
+variable is : rsi
+Not equivalent for 0
+variable is : r9
+Equivalent for value 0
+variable is : rdi
+Not equivalent for 0
+variable is : rdx
+Not equivalent for 0
+variable is : r8
+Equivalent for value 0
+variable is : rcx
+Not equivalent for 0
+==============================================
+==============================================
+Total domain is 6277101735386680763835789423207666416102355444464034512896
+variable rsi
+total equivalent domain is 0
+total nonequivalent domain is 4294967296
+variable r9
+total equivalent domain is 1
+total nonequivalent domain is 4294967295
+variable rdi
+total equivalent domain is 0
+total nonequivalent domain is 4294967296
+variable rdx
+total equivalent domain is 0
+total nonequivalent domain is 4294967296
+variable r8
+total equivalent domain is 1
+total nonequivalent domain is 4294967295
+variable rcx
+total equivalent domain is 0
+total nonequivalent domain is 4294967296
+===================Percentage of equivalence domain===================
+For variable rsi
+For variable r9
+For variable rdi
+For variable rdx
+For variable r8
+For variable rcx
+Final total equivalent tuples are 2923003274321523469486431201969191431880096874496
+Final percentage of tuples 4.6566128725352915e-08%
+Final upper bounded nonequivalent tuples are 6277101732463677489514265953721235214133164012583937638400
+Final percentage of tuples 99.99999995343387%
+total time 291.9312756061554 s
+total time 4.86552126010259 m

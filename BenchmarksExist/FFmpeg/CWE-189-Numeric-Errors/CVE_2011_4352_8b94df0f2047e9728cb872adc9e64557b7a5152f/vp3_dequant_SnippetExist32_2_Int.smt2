@@ -1,0 +1,26 @@
+(set-info :status unknown)
+(set-logic QF_LIA)
+
+(declare-fun rdi () Int)
+(declare-fun rsi () Int)
+
+(declare-fun x48 () Int)
+(declare-fun x6 () Int)
+(declare-fun x7 () Int)
+(declare-fun x110 () Int)
+(declare-fun x113 () Int)
+(declare-fun x116 () Int)
+(declare-fun x550 () Bool)
+(declare-fun x117 () Bool)
+
+(assert (= x48 rdi))
+(assert (= x550 (= x48 4294967295)))
+(assert (= x6 rsi))
+(assert (= x7 rsi))
+(assert (= x110  x6))
+;(assert (= x113 (div x110 4)))
+(assert (= x116 (+ x48 x110)))
+(assert (= x117 (<= x116 63)))
+(assert (and x117 x550))
+
+(check-sat)

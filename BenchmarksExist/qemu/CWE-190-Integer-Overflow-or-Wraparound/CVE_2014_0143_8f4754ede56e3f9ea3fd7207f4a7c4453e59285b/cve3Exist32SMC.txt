@@ -1,0 +1,9 @@
+cve3Exist32.smt2.cnf 53.7668 54.1466 162 1.1605
+Result: Lower Bound = 53.7668
+Result: Upper Bound = 54.1466
+Result: Sound Lower Bound = 53.7362 with 60%
+Result: Sound Upper Bound = 54.2230 with 60%
+Result: Filename = cve3Exist32.smt2.cnf
+Result: #ExhaustUptoC Query = 24
+Result: #Sat Query = 162
+Result: Running Time = 1.1605

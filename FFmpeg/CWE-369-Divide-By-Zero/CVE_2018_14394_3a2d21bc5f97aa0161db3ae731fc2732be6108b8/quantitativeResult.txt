@@ -1,0 +1,6 @@
+Satisfiability of solver : sat
+Variables : ['rdi', 'rdx', 'rcx', 'rsi', 'R']
+Number of variables : 4
+Calculate for 32 bits
+=======================ALGO : Divide And Search==================
+variable is : rdi
