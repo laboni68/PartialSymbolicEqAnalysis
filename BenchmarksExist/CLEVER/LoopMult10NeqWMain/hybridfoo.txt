@@ -1,5 +1,5 @@
-/home/laboni/AngrTest/SearchMCRecent/Benchmarks/CLEVER/LoopMult10/NeqWMain/ResultfooNEQ.smt2
-/home/laboni/AngrTest/SearchMCRecent/Benchmarks/CLEVER/LoopMult10/NeqWMain/ResultfooEQ.smt2
+~/CLEVER/LoopMult10/NeqWMain/ResultfooNEQ.smt2
+~/CLEVER/LoopMult10/NeqWMain/ResultfooEQ.smt2
 Satisfiability of solver :  sat
 rdi
 rsi

@@ -1,5 +1,5 @@
-/home/laboni/AngrTest/SearchMCRecent/Benchmarks/dart/test/EqWMain/ResultsnippetNEQ.smt2
-/home/laboni/AngrTest/SearchMCRecent/Benchmarks/dart/test/EqWMain/ResultsnippetEQ.smt2
+~/dart/test/EqWMain/ResultsnippetNEQ.smt2
+~/dart/test/EqWMain/ResultsnippetEQ.smt2
 Satisfiability of solver :  sat
 rdi
 rsi

@@ -1,4 +1,4 @@
-/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/FFmpeg/CWE-189-Numeric-Errors/CVE_2015_6819_84afc6b70d24fc0bf686e43138c96cf60a9445fe/Resultff_mjpeg_decode_frame_SnippetNEQ.smt2/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/FFmpeg/CWE-189-Numeric-Errors/CVE_2015_6819_84afc6b70d24fc0bf686e43138c96cf60a9445fe/Resultff_mjpeg_decode_frame_SnippetEQ.smt2Satisfiability of solver : sat
+~/FFmpeg/CWE-189-Numeric-Errors/CVE_2015_6819_84afc6b70d24fc0bf686e43138c96cf60a9445fe/Resultff_mjpeg_decode_frame_SnippetNEQ.smt2~/FFmpeg/CWE-189-Numeric-Errors/CVE_2015_6819_84afc6b70d24fc0bf686e43138c96cf60a9445fe/Resultff_mjpeg_decode_frame_SnippetEQ.smt2Satisfiability of solver : sat
 rsi
 rdi
 R

@@ -1,4 +1,4 @@
-/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/qemu/CWE-189-Numeric-Errors/CVE_2016_2538_fe3c546c5ff2a6210f9a4d8561cc64051ca8603e/cve1/Resultrndis_query_responseNEQ.smt2/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/qemu/CWE-189-Numeric-Errors/CVE_2016_2538_fe3c546c5ff2a6210f9a4d8561cc64051ca8603e/cve1/Resultrndis_query_response2EQ.smt2Satisfiability of solver : sat
+~/qemu/CWE-189-Numeric-Errors/CVE_2016_2538_fe3c546c5ff2a6210f9a4d8561cc64051ca8603e/cve1/Resultrndis_query_responseNEQ.smt2~/qemu/CWE-189-Numeric-Errors/CVE_2016_2538_fe3c546c5ff2a6210f9a4d8561cc64051ca8603e/cve1/Resultrndis_query_response2EQ.smt2Satisfiability of solver : sat
 rdi
 rsi
 rdx

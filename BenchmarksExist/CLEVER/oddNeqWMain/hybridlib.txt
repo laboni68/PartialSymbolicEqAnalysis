@@ -1,2 +1,2 @@
-/home/laboni/AngrTest/SearchMCRecent/Benchmarks/CLEVER/odd/NeqWMain/ResultlibNEQ.smt2
-/home/laboni/AngrTest/SearchMCRecent/Benchmarks/CLEVER/odd/NeqWMain/ResultlibEQ.smt2
+~/CLEVER/odd/NeqWMain/ResultlibNEQ.smt2
+~/CLEVER/odd/NeqWMain/ResultlibEQ.smt2

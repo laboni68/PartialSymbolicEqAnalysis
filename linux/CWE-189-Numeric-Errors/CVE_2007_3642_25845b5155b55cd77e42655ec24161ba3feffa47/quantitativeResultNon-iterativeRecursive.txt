@@ -1,4 +1,4 @@
-/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/linux/CWE-189-Numeric-Errors/CVE_2007_3642_25845b5155b55cd77e42655ec24161ba3feffa47/Resultdecode_choice_SnippetNEQ.smt2/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/linux/CWE-189-Numeric-Errors/CVE_2007_3642_25845b5155b55cd77e42655ec24161ba3feffa47/Resultdecode_choice_SnippetEQ.smt2Satisfiability of solver : sat
+~/linux/CWE-189-Numeric-Errors/CVE_2007_3642_25845b5155b55cd77e42655ec24161ba3feffa47/Resultdecode_choice_SnippetNEQ.smt2~/linux/CWE-189-Numeric-Errors/CVE_2007_3642_25845b5155b55cd77e42655ec24161ba3feffa47/Resultdecode_choice_SnippetEQ.smt2Satisfiability of solver : sat
 rsi
 rdi
 rdx

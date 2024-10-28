@@ -1,4 +1,4 @@
-/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/qemu/CWE-369-Divide-By-Zero/CVE_2016_8669_3592fe0c919cf27a81d8e9f9b4f269553418bb01/Resultserial_update_parameters_SnippetNEQ.smt2/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/qemu/CWE-369-Divide-By-Zero/CVE_2016_8669_3592fe0c919cf27a81d8e9f9b4f269553418bb01/Resultserial_update_parameters_SnippetEQ.smt2Satisfiability of solver : sat
+~/qemu/CWE-369-Divide-By-Zero/CVE_2016_8669_3592fe0c919cf27a81d8e9f9b4f269553418bb01/Resultserial_update_parameters_SnippetNEQ.smt2~/qemu/CWE-369-Divide-By-Zero/CVE_2016_8669_3592fe0c919cf27a81d8e9f9b4f269553418bb01/Resultserial_update_parameters_SnippetEQ.smt2Satisfiability of solver : sat
 rdi
 rsi
 R

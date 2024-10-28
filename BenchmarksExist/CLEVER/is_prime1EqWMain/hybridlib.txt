@@ -1,5 +1,5 @@
-/home/laboni/AngrTest/SearchMCRecent/Benchmarks/CLEVER/is_prime1/EqWMain/ResultlibNEQ.smt2
-/home/laboni/AngrTest/SearchMCRecent/Benchmarks/CLEVER/is_prime1/EqWMain/ResultlibEQ.smt2
+~/CLEVER/is_prime1/EqWMain/ResultlibNEQ.smt2
+~/CLEVER/is_prime1/EqWMain/ResultlibEQ.smt2
 Satisfiability of solver :  sat
 rsi
 rdi

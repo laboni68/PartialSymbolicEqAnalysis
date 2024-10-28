@@ -1,2 +1,2 @@
-/home/laboni/AngrTest/SearchMCRecent/Benchmarks/CLEVER/LoopSub/NeqWMain/ResultmainNEQ.smt2
-/home/laboni/AngrTest/SearchMCRecent/Benchmarks/CLEVER/LoopSub/NeqWMain/ResultmainEQ.smt2
+~/CLEVER/LoopSub/NeqWMain/ResultmainNEQ.smt2
+~/CLEVER/LoopSub/NeqWMain/ResultmainEQ.smt2

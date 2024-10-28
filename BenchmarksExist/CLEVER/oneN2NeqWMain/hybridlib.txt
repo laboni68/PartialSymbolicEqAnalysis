@@ -1,5 +1,5 @@
-/home/laboni/AngrTest/SearchMCRecent/Benchmarks/CLEVER/oneN2/NeqWMain/ResultlibNEQ.smt2
-/home/laboni/AngrTest/SearchMCRecent/Benchmarks/CLEVER/oneN2/NeqWMain/ResultlibEQ.smt2
+~/CLEVER/oneN2/NeqWMain/ResultlibNEQ.smt2
+~/CLEVER/oneN2/NeqWMain/ResultlibEQ.smt2
 Satisfiability of solver :  sat
 rdi
 R

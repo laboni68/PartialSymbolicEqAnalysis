@@ -1,4 +1,4 @@
-/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/linux/CWE-189-Numeric-Errors/CVE_2008_3272_82e68f7ffec3800425f2391c8c86277606860442/Resultsnd_seq_oss_synth_make_info_SnippetNEQ.smt2/home/laboni/Vulnerabilities/extractedPatch/patches/patchByProject/linux/CWE-189-Numeric-Errors/CVE_2008_3272_82e68f7ffec3800425f2391c8c86277606860442/Resultsnd_seq_oss_synth_make_info_SnippetEQ.smt2Satisfiability of solver : sat
+~/linux/CWE-189-Numeric-Errors/CVE_2008_3272_82e68f7ffec3800425f2391c8c86277606860442/Resultsnd_seq_oss_synth_make_info_SnippetNEQ.smt2~/linux/CWE-189-Numeric-Errors/CVE_2008_3272_82e68f7ffec3800425f2391c8c86277606860442/Resultsnd_seq_oss_synth_make_info_SnippetEQ.smt2Satisfiability of solver : sat
 rsi
 rdi
 R
