@@ -14,8 +14,8 @@
 
 
 ## Benchmarks
-- EQBench: CLEVER, dart, pow
-- patchByProject: qemu, linux, FFmpeg 
+- EqBench: CLEVER, dart, pow
+- PatchBench: qemu, linux, FFmpeg 
 
 ## Approaches
 - EqChecker.py
